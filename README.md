@@ -1,2 +1,1 @@
-# Welcome-Back
-School project about veteran of the Vietnam war
+School project about veteran of the vietnam war 
