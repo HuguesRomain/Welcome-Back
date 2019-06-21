@@ -1,1 +1,9 @@
-@import './introduction.scss';
+@import './IntroductionStyle/introduction.scss';
+@import './reset.scss';
+@import './globalStyle.scss';
+
+body{
+  background: black;
+}
+
+@import url('http://fr.allfont.net/allfont.css?fonts=courier');

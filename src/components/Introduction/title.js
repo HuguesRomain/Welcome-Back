@@ -1,17 +1,20 @@
-import React, { Component } from 'react'
-import Text from '../../data/textData'
+import React, { Component } from 'react';
+import textData from '../../data/textData';
 
-class Title extends Component {
+class TitleIntro extends Component {
   state = {
-    TextData: {Text},
+    TextData: {textData},
   }
+  
   render () {
     return (
       <div className='Title'>
-        {this.state.TextData.Text.TextData.textIntro.Title}
+        <div className="ui__yellow__line" />
+        <h1>WELCOME BACK</h1>
+        <div className="ui__yellow__line" />
       </div>
     )
   }
 }
 
-export default Title
+export default TitleIntro
