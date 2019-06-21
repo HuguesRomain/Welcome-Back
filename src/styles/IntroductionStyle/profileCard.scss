@@ -1,0 +1,52 @@
+.profile__cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65vw;
+}
+
+.card__profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: grey;
+  height: 45vh;
+  width: 20vw;
+
+  &::after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-top: 3px solid blue;
+    border-right: 3px solid blue;
+}
+  &::before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    border-bottom: 3px solid orange;
+    border-left: 3px solid orange;
+}
+}
+
+.star{
+  height: 5vh;
+  transform: translateY(2vh);
+}
+
+.card__profile__name{
+  text-align: center;
+  width: 7vw;
+  font-size: 40px;
+  font-family: 'Headliner No. 45', sans-serif;
+}

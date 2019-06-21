@@ -1,0 +1,18 @@
+.title__part__2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white; 
+  font-family: 'Headliner No. 45', sans-serif;
+  font-size: 50px;
+  margin: 2%;
+  margin-top: 5%;
+
+  &::after{
+    content:  '';
+    display: block;
+    height: 0.1vh;
+    width: 10vw;
+    background-color: #F8EF48;
+  }
+}
