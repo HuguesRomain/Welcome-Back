@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-//import Biography from '../'
+import React, { Component } from 'react'
 import TitleIntro from '../Introduction/title'
 
-class Chapter1 extends Component {
+class Chapter2 extends Component {
   render () {
     return (
       <div className="chapter1">
@@ -12,4 +11,4 @@ class Chapter1 extends Component {
   }
 }
 
-export default Chapter1
+export default Chapter2

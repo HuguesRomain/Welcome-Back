@@ -21,7 +21,7 @@ class Video extends Component {
           }}
           loop
           autoPlay
-          src='https://www.youtube.com/watch?v=IUkz64bk-C4&feature=youtu.be' type='video/mp4'
+          src='http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4' type='video/mp4'
         />
       </div>
     );
