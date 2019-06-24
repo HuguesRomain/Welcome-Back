@@ -28,6 +28,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 65vw;
   flex-wrap: wrap;
 
@@ -60,6 +61,7 @@
 
   .card__profile__name {
     animation: appeard 0.1s ease-in;
+    text-decoration: none;
   }
 
   &:hover {
@@ -70,6 +72,7 @@
     .card__profile__name {
       opacity: 0;
       animation: toTop 0.5s ease-in-out;
+      
     }
 
     img {
