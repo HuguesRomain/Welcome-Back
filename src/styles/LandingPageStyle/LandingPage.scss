@@ -10,12 +10,11 @@
 }
 
 .landingPage {
-  background-color: grey;
-  background-image: url(../assets/img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
+  
 
   .content__LandingPage {
     height: 100vh;
@@ -26,5 +25,8 @@
     text-align: center;
     flex-direction: column;
     animation: appear 1s ease-in-out;
+    position: relative;
+    z-index: 999;
+    pointer-events: none;
   }
 }
