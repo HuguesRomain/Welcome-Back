@@ -5,6 +5,8 @@
   text-align: center;
   padding: 10px;
   transition: transform 0.3s ease;
+  background-color: inherit;
+  color: white;
 
   &:hover {
     transform: scale(1.2);

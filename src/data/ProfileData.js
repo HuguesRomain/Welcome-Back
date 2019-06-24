@@ -1,8 +1,8 @@
 const ProfileData= {
   FirstProfile : {
-    Name: "JOHN MUSGRAVE",
-    Img: "musgrave.png",
-    Syndrome: "Fear Of Dark"
+    Name: 'JOHN MUSGRAVE',
+    Img: 'musgrave.png',
+    Syndrome: 'Fear Of Dark'
   },
   SecondProfile : {
     Name: "Chapter II",
