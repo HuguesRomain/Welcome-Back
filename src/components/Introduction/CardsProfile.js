@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ProfileData from '../../data/ProfileData';
 import ProfileCard from './CardProfile';
-
+import {Link} from 'react-router-dom'
 
 class CardsProfile extends Component {
   state = {
