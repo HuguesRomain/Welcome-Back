@@ -1,0 +1,12 @@
+.button__LandingPage {
+  border: 1.5px solid yellow;
+  font-family: 'Headliner No. 45', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
