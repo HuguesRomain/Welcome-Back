@@ -29,8 +29,7 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 65vw;
-  flex-wrap: wrap;
+  width: 66vw;
 
   &::after {
     content: '';
@@ -53,7 +52,9 @@
   width: 20vw;
   margin-bottom: 5vh;
   margin-top: 2vh;
+  margin: 2vh 1vw 5vh 1vw;
   transition: transform 0.5s ease-in-out;
+  flex-wrap: wrap;
 
   img {
     animation: appeard 0.1s ease-in;

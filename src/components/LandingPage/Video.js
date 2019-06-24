@@ -1,31 +1,18 @@
-'use strict';
-import React, { Component } from 'react'
-import VideoCover from 'react-video-cover'
-
+import React, { Component, Fragment } from 'react'
 
 class Video extends Component {
+
+  
   render() {
+  
     return (
-      <div style={{
-        width: '100vw',
-        height: '100vh',
-        overflow: 'hidden',
-        position: 'absolute',
-      }}>
-        <video
-          style={{
-            objectFit: 'cover',
-            width: '100%',
-            height: '100%',
-            position: 'absolute',
-          }}
-          loop
-          autoPlay
-          src='http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4' type='video/mp4'
-        />
-      </div>
+      <Fragment>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IUkz64bk-C4?controls=0&autoplay=1&mute=0&loop=1" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+      </Fragment>
     );
   }
 }
 
 export default Video
+
