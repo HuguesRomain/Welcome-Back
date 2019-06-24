@@ -1,3 +1,29 @@
+@keyframes toTop {
+  0% {transform: translateY(0vh);
+      opacity: 1
+    }
+  100% {transform: translateY(-15vh);
+        opacity: 0
+      }
+}
+
+@keyframes fromBottom {
+  0% {transform: translateY(20vh);
+      opacity: 0
+    }
+  100% {transform: translateY(0vh);
+        opacity: 1
+      }
+}
+
+@keyframes appeard {
+  0% { opacity: 0
+  }
+100% { opacity: 1
+    }
+}
+
+
 .profile__cards{
   display: flex;
   flex-direction: row;
@@ -25,22 +51,35 @@
   height: 45vh;
   width: 20vw;
   margin-bottom: 5vh;
-  transition: transform 0.3s ease;
+  margin-top: 2vh;
+  transition: transform 0.5s ease-in-out;
+
+  img {
+    animation: appeard 0.1s ease-in;
+  }
+
+  .card__profile__name {
+    animation: appeard 0.1s ease-in;
+  }
 
   &:hover {
     transform: scale(1.1); 
+    transition: transform 0.5s;
     z-index: 1;
-
+    
     .card__profile__name {
-      visibility: hidden;
-      transition: ease;
+      opacity: 0;
+      animation: toTop 0.5s ease-in-out;
     }
+
     img {
-      visibility: hidden;
-      transition: ease;
+      opacity: 0;
+      animation: toTop 0.5s ease-in-out;
     }
+
     .name__Chapter {
-      visibility: visible;  
+      opacity: 1;
+      animation: fromBottom 0.5s ease-in-out; 
     }
   }
 
@@ -83,7 +122,7 @@
 }
 
 .name__Chapter {
-  visibility: hidden;
+  opacity: 0;
   font-family: 'Headliner No. 45', sans-serif;
   font-size: 40px;
   transform: translateY(-1vh);

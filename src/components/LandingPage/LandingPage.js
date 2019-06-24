@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import TitleLandingPage from './TitleLandingPage'
 import ContentLandingPage from './ContentLandingPage';
 import Button from './Button';
-import { Redirect } from 'react-router-dom'
 
 class LandingPage extends Component {
   render () {
