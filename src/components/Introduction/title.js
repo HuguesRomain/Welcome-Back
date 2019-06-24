@@ -8,11 +8,7 @@ class TitleIntro extends Component {
   
   render () {
     return (
-      <div className='Title'>
-        <div className="ui__yellow__line" />
-        <h1>WELCOME BACK</h1>
-        <div className="ui__yellow__line" />
-      </div>
+        <h1 className='Title'>WELCOME BACK</h1>
     )
   }
 }

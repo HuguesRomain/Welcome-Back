@@ -3,6 +3,17 @@
   flex-direction: row;
   justify-content: space-between;
   width: 65vw;
+  flex-wrap: wrap;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 10vw;
+    height: 0.2vh;
+    background-color: yellow;
+    transform: translateX(27.5vw);
+    margin-bottom: 5vh;
+  }
 }
 
 .card__profile{
@@ -11,32 +22,52 @@
   justify-content: center;
   flex-direction: column;
   color: white;
-  background-color: grey;
   height: 45vh;
   width: 20vw;
+  margin-bottom: 5vh;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1); 
+    z-index: 1;
+
+    .card__profile__name {
+      visibility: hidden;
+      transition: ease;
+    }
+    img {
+      visibility: hidden;
+      transition: ease;
+    }
+    .name__Chapter {
+      visibility: visible;  
+    }
+  }
+
 
   &::after {
     display: block;
     content: "";
     width: 20px;
     height: 20px;
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    border-top: 3px solid blue;
-    border-right: 3px solid blue;
-}
+    position: relative;
+    bottom: 31.5vh;
+    right: -10.5vw;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+  }
+  
   &::before {
     display: block;
     content: "";
     width: 20px;
     height: 20px;
-    position: absolute;
-    bottom: -5px;
-    left: -5px;
-    border-bottom: 3px solid orange;
-    border-left: 3px solid orange;
-}
+    position: relative;
+    bottom: -31.5vh;
+    left: -10vw;
+    border-bottom: 2px solid yellow;
+    border-left: 2px solid yellow;
+  }
 }
 
 .star{
@@ -49,4 +80,12 @@
   width: 7vw;
   font-size: 40px;
   font-family: 'Headliner No. 45', sans-serif;
+}
+
+.name__Chapter {
+  visibility: hidden;
+  font-family: 'Headliner No. 45', sans-serif;
+  font-size: 40px;
+  transform: translateY(-1vh);
+  position: absolute;
 }

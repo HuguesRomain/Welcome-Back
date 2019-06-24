@@ -9,13 +9,13 @@ class DeathAfterWar extends Component {
           <p className='death__after__war--sentence'>Veteran suicide</p> 
           <p className='death__after__war--death'> <span className='yellow__span'>150 000</span> DEAD</p>
         </div>
-          <img className='plus' src={require(`/Users/hugues/Documents/Documents pro/Git Project/Welcome-Back/src/assets/img/plus.png`)} alt=""/>
+          <img className='plus' src={require(`../../assets/img/plus.png`)} alt=""/>
           <div className="death__after_war--content--1">
           <p className='death__after__war--sentence'>Veteran suicide</p> 
           <p className='death__after__war--death'> <span className='yellow__span'>150 000</span> DEAD</p>
         </div>
         </div>
-        <img className='death__after__war--img' src={require(`/Users/hugues/Documents/Documents pro/Git Project/Welcome-Back/src/assets/img/deadafter.png`)} alt=""/>
+        <img className='death__after__war--img' src={require(`../../assets/img/deadafter.png`)} alt=""/>
       </div>
     )
   }

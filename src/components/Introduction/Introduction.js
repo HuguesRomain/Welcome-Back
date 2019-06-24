@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import TitleIntro from './Title';
+import TitleIntro from './title';
 import DescriptionIntro from './description';
 import DeathDuringWar from './DeathDuringWar';
 import DeathAfterWar from './DeathAfterWar';

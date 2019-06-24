@@ -4,7 +4,10 @@
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  background-image: '/Users/hugues/Documents/Documents pro/Git Project/Welcome-Back/src/assets/img/background.jpg' 
+  background-image: url(../assets/img/backgroundIntro.jpg); 
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .half__sentence{

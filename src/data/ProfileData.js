@@ -1,15 +1,18 @@
 const ProfileData= {
   FirstProfile : {
     Name: "JOHN MUSGRAVE",
-    Img: "musgrave.png"
+    Img: "musgrave.png",
+    Syndrome: "Fear Of Dark"
   },
   SecondProfile : {
-    Name: "JOHN MUSGRAVE",
-    Img: "musgrave.jpg"
+    Name: "Chapter II",
+    Img: "musgrave.png",
+    Syndrome: "TOXICOMANIA"
   },
   ThirdProfile : {
-    Name: "JOHN MUSGRAVE",
-    Img: "musgrave.jpg"
+    Name: "Chapter III",
+    Img: "musgrave.png",
+    Syndrome: "PTSD"
   },
 }
 

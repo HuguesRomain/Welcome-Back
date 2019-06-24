@@ -1,15 +1,28 @@
 .Title{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  white-space: nowrap;
   width: 70vw;
   color: #F8EF48;
   font-family: 'Headliner No. 45', sans-serif;
-  font-size: 2em;
+  font-size: 4.5em;
+
+  &::after {
+    width: 25vw;
+    height: 0.15vh;
+    background-color: #F8EF48;
+    content: '';
+    display: block;
+    transform: translateX(1vw);
+  }
+  &::before {
+    width: 25vw;
+    height: 0.15vh;
+    background-color: #F8EF48;
+    content: '';
+    display: block;
+    transform: translateX(-1vw);
+  }
 }
 
-.ui__yellow__line{
-  width: 25vw;
-  height: 0.1vh;
-  background-color: #F8EF48;
-}
