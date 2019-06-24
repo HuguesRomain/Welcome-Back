@@ -8,7 +8,11 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "sass": "^1.21.0"
+    "react-video-cover": "^1.2.2",
+    "react-youtube": "^7.9.0",
+    "redux": "^4.0.1",
+    "sass": "^1.21.0",
+    "video-react": "^0.14.0"
   },
   "scripts": {
     "start": "react-scripts start",
