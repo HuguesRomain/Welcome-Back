@@ -9,9 +9,9 @@ class LandingPage extends Component {
   render () {
     return (
       <Fragment>
-        
-        <div className='landingPage'>
         <Audio />
+        <div className='landingPage'>
+        
           <div className='content__LandingPage'> 
           
           <Video  />

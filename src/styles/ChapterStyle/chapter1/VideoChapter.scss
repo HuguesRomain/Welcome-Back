@@ -1,8 +1,9 @@
 .videoChapter {
   height: 60vh;
   width: 80vw;
-  background-color: grey;
   margin: 15vh 0 10vh 0;
+  display: flex;
+  justify-content: center;
 
   &::after {
     display: block;
@@ -10,8 +11,8 @@
     width: 20px;
     height: 20px;
     position: relative;
-    bottom: 4.5vh;
-    right: -79.5vw;
+    bottom: 3.5vh;
+    right: -1.5vw;
     border-top: 2px solid yellow;
     border-right: 2px solid yellow;
   }
@@ -22,9 +23,14 @@
     width: 20px;
     height: 20px;
     position: relative;
-    bottom: -60vh;
+    bottom: -62vh;
     left: -1.5vw;
     border-bottom: 2px solid yellow;
     border-left: 2px solid yellow;
   }
+}
+
+.videoMusgrave {
+  min-width: 70vw;
+  min-height: 60vh;
 }
