@@ -1,0 +1,35 @@
+.chapter1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/img/backgroundChapter1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.IntroChapter {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentIntroChapter {
+  width: 50vw;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.part__introChapter {
+  width: 50vw;
+}
+
+.nameIntroChapter {
+  font-size: 2em;
+  font-family: 'Courier', sans-serif;
+}
+

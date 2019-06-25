@@ -8,7 +8,6 @@ class Chapter1 extends Component {
     return (
       <div className="chapter1">
         <TitleIntro />
-        <IntroChapter />
       </div>
     )
   }

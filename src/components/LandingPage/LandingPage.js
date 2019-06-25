@@ -3,7 +3,7 @@ import TitleLandingPage from './TitleLandingPage'
 import ContentLandingPage from './ContentLandingPage'
 import Button from './Button'
 import Video from './Video'
-import Audio from './Audio'
+import Audio from './AudioBackground'
 
 class LandingPage extends Component {
   render () {
@@ -11,8 +11,9 @@ class LandingPage extends Component {
       <Fragment>
         
         <div className='landingPage'>
+        <Audio />
           <div className='content__LandingPage'> 
-          {/* <Audio /> */}
+          
           <Video  />
             <TitleLandingPage />
             <ContentLandingPage />

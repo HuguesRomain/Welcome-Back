@@ -1,0 +1,42 @@
+.containerAudio {
+  display: none;
+}
+
+.containerAudio__track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid yellow;
+  background-color: black;
+}
+
+.playButton {
+  position: absolute;
+  z-index: 99999;
+  top: 10px;
+  right: 10px;
+  color: yellow;
+  height: 5vh;
+  width: 5vw;
+  font-size: 3rem;
+}
+
+.playButton__track {
+  z-index: 99999;
+  color: yellow;
+  height: 5vh;
+  width: 5vw;
+  font-size: 3rem;
+  padding-left: 1vw;
+}
+
+.wave {
+  height: 49px;
+  width: 28vw;
+}
+
+.styles_reactWaves__1M36F {
+  padding: 5px;
+  margin: 3px;
+}
