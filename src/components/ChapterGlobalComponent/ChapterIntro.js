@@ -16,3 +16,4 @@ class IntroChapter extends Component {
 }
 
 export default IntroChapter
+

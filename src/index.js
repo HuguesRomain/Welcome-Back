@@ -15,7 +15,7 @@ const Root = () => (
   <Switch>
     <Route exact path='/' component={App}/>
     <Route path='/introduction' component={Introduction}/>
-    <Route path='/JohnMusgrave' component={Chapter1}/>
+    <Route path='/ChapterI' component={Chapter1}/>
     <Route path='/ChapterII' component={Chapter2}/>
     <Route path='/ChapterIII' component={Chapter3}/>
   </Switch>

@@ -12,7 +12,7 @@ class LandingPage extends Component {
         
         <div className='landingPage'>
           <div className='content__LandingPage'> 
-          <Audio />
+          {/* <Audio /> */}
           <Video  />
             <TitleLandingPage />
             <ContentLandingPage />
