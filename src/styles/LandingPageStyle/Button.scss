@@ -1,15 +1,17 @@
 .button__LandingPage {
-  border: 1.5px solid yellow;
   font-family: 'Headliner No. 45', sans-serif;
-  font-size: 1.2em;
+  font-size: 2em;
   text-align: center;
   padding: 10px;
-  transition: transform 0.3s ease-in-out;
   background-color: inherit;
   color: white;
   pointer-events: visible;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-bottom: solid 1px yellow;
 
-  &:hover {
-    transform: scale(1.2);
-  }
+ &:hover {
+    color: yellow;
+    letter-spacing: 2px;
+}
 }
