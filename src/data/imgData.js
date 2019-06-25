@@ -9,6 +9,9 @@ const imgData = {
     Soldat2: 'Soldats2.png',
     Soldat3: 'Soldats3.png',
     Soldat4: 'Soldats4.png',
+    Tank1: 'Tank1.png',
+    Tank2: 'Tank2.png',
+    Tank3: 'Tank3.png',
   }
 }
 
