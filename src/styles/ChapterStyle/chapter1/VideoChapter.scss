@@ -1,0 +1,30 @@
+.videoChapter {
+  height: 60vh;
+  width: 80vw;
+  background-color: grey;
+  margin: 15vh 0 10vh 0;
+
+  &::after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 4.5vh;
+    right: -79.5vw;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+  }
+  
+  &::before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: -60vh;
+    left: -1.5vw;
+    border-bottom: 2px solid yellow;
+    border-left: 2px solid yellow;
+  }
+}

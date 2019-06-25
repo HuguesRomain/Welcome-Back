@@ -1,3 +1,5 @@
+
+//Hover
 @keyframes toTop {
   0% {transform: translateY(0vh);
       opacity: 1
@@ -16,12 +18,27 @@
       }
 }
 
-@keyframes appeard {
-  0% { opacity: 0
-  }
-100% { opacity: 1
+
+
+//NO-HOVER
+@keyframes fromTop {
+  0% {transform: translateY(0vh);
+      opacity: 1
     }
+  100% {transform: translateY(15vh);
+        opacity: 0
+      }
 }
+
+@keyframes toBottom {
+  0% {transform: translateY(-22vh);
+      opacity: 0
+    }
+  100% {transform: translateY(0vh);
+        opacity: 1
+      }
+}
+
 
 
 .profile__cards{
@@ -50,19 +67,19 @@
   color: white;
   height: 45vh;
   width: 20vw;
-  margin-bottom: 5vh;
-  margin-top: 2vh;
   margin: 2vh 1vw 5vh 1vw;
   transition: transform 0.5s ease-in-out;
-  flex-wrap: wrap;
 
   img {
-    animation: appeard 0.1s ease-in;
+    animation: toBottom 0.5s ease-in-out;
+
   }
 
   .card__profile__name {
-    animation: appeard 0.1s ease-in;
+    animation: toBottom 0.5s ease-in-out;
     text-decoration: none;
+    text-align: center;
+    pointer-events: none;
   }
 
   &:hover {
@@ -131,4 +148,5 @@
   font-size: 40px;
   transform: translateY(-1vh);
   position: absolute;
+  animation: fromTop 0.5s ease-in-out;
 }

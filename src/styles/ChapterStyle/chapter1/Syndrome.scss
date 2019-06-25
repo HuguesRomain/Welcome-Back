@@ -1,0 +1,69 @@
+.ChapterSyndrome {
+  color: white;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier', sans-serif;
+
+  h2 {
+    margin: 15vh 0 10vh 0;
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: 'Headliner No. 45', sans-serif;
+  }
+}
+
+.contentChapterSyndrome {
+  width: 100vw;
+  display: flex; 
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 10vh;
+
+}
+
+.part__ChapterSyndrome {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameChapterSyndrome {
+  font-size: 2em;
+}
+
+
+.part__ChapterSyndrome__Content {
+  width: 40vw;
+  text-align: end;
+
+  p {
+    margin-bottom: 3vh;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 3vh;
+  }
+}
+
+.part__ChapterSyndrome__Image {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+}
+
+
+.Soldat1 {
+  height: 65vh;;
+}
+
+.quote1__chapter1 {
+  margin: 10vh 0 10vh 0;
+  text-align: end;
+  line-height: 3vh;
+  font-size: 22px;
+  font-weight: bold;
+}

@@ -25,11 +25,14 @@
 .playButton__track {
   z-index: 99999;
   color: yellow;
-  height: 5vh;
-  width: 5vw;
-  font-size: 3rem;
-  padding-left: 1vw;
+  height: 4vw;
+  width: 4vw;
+  font-size: 2em;
+  padding: .5vw 1.5vw 1vw 1.5vw;
+  text-align: center;
+  line-height: 4vw;
 }
+
 
 .wave {
   height: 49px;
