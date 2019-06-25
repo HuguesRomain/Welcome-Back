@@ -3,22 +3,22 @@ import textData from '../../data/ChapterData'
 import imgData from '../../data/imgData'
 import AudioTrack from '../ChapterGlobalComponent/Audio'
 
-class IntroChapter1 extends Component {
+class IntroChapter2 extends Component {
   state = {
     img: {imgData},
   }
   render () {
     return (
       <div className='IntroChapter'>
-        <h1>CHAPTER I</h1>
-          <p className='quote1__chapter1'>“I’m still scared of the dark”<br/>
-          - John Musgrave -
+        <h1>CHAPTER II</h1>
+          <p className='quote1__chapter1'>““ Worse than what we experienced during the war “ ”<br/>
+          - Jim Markson -
           </p>
         <div className='contentIntroChapter'>
 
           <div className='part__introChapter'>
             <div className='part__introChapter__Content'>
-              <h3 className='nameIntroChapter'><span className='yellow__span'>JOHN MUSGRAVE</span></h3>
+              <h3 className='nameIntroChapter'><span className='yellow__span'>JIM MARKSON</span></h3>
                 <h4>First class 1st Battalion 9th Marines.</h4>
                   <p>“I joined the Marine Corps ton be in the vasity. I have 
                       never regretted that decision.<br></br><br></br>
@@ -32,13 +32,11 @@ class IntroChapter1 extends Component {
           <div className='part__introChapter__Image'>
             <img className='Soldat1'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Soldat1}`)} alt='logo' />
           </div>
-
         </div>
-        <AudioTrack />
       </div>
     )
   }
 }
 
-export default IntroChapter1
+export default IntroChapter2
 
