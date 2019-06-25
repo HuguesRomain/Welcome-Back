@@ -1,9 +1,23 @@
 import React, { Component, Fragment } from 'react'
 import { Redirect } from 'react-router-dom'
+import {TimelineLite} from 'gsap'
 
 class Button extends Component {
   state = {
     goToIntro: false,
+  }
+
+  constructor(props){
+    super(props);
+    this.tween = new TimelineLite({ paused:false });
+
+    this.buttonApear = null;
+  }
+
+  componentDidMount(){
+    this.tween
+      .from(this.buttonApear, 1,{ y: 50, autoAlpha: 0}, 4)
+
   }
   
   handleIntro = () => {
@@ -19,7 +33,7 @@ class Button extends Component {
   
     return (
       <Fragment>
-        <div onClick={this.handleIntro} className='button__LandingPage'>{ name }</div>
+        <div onClick={this.handleIntro} className='button__LandingPage' ref={ div => this.buttonApear = div }>{ name }</div>
       </Fragment>
     )
   }
