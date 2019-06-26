@@ -17,7 +17,7 @@ class EndChapter extends Component {
 
           <div className='part__EndChapter'>
             <div className='part__EndChapter__Content'>
-            <img className='Soldats1'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.WelcomeBack}`)} alt='logo' />
+            <img className='EndChapterPhoto'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.WelcomeBack}`)} alt='logo' />
             </div>
            
           </div>
@@ -31,6 +31,7 @@ class EndChapter extends Component {
           </div>
         </div>
         <AudioTrack audioLink={this.state.AudioState.AudioData.audio.chapter1Audio.audio3}/>
+        <p className="audioTrackSource">Extract from “How WWII and Vietnam Veterans Were Treated Differently“<br /><br />by History </p>
       </div>
     )
   }

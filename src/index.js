@@ -2,8 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-
-import LandingPage from './components/LandingPage/LandingPage';
 import Introduction from './components/Introduction/Introduction';
 import App from './App';
 import Chapter1 from './components/Chapter1/chapter1';

@@ -17,6 +17,7 @@ class ChapterSyndrome extends Component {
           <div className='part__ChapterSyndrome'>
 
             <div className='part__ChapterSyndrome__Image'>
+              <img className='Soldats1'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Soldats1}`)} alt='logo' />
               <img className='Soldats2'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Soldats2}`)} alt='logo' />
             </div>
 
@@ -35,6 +36,10 @@ class ChapterSyndrome extends Component {
 
         </div>
         <AudioTrack audioLink={this.state.AudioState.AudioData.audio.chapter1Audio.audio2} />
+        
+        <p className="audioTrackSource">Extract from “PTSD and Vietnam veteran”<br></br>
+        Dan Gannon, Marine Corps veteran,
+        </p>
       </div>
     )
   }

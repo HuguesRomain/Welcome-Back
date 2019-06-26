@@ -77,10 +77,12 @@
 }
 
 .part__introChapter__Image {
-  width: 50vw;
+  width: 40vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  align-content: space-around;
+  justify-content: inherit;
+  flex-direction: column;
 }
 
 
@@ -88,25 +90,20 @@
   position: absolute;
   width: 20vw;
   height: auto;
-  right: 26vw;
+  right: 22vw;
   top: 74vh;
   z-index: 1;
 }
 
 .Soldat2 {
-  position: absolute;
   width: 25vw;
   height: auto;
-  top: 64vh;
-  right: 10vw;
 }
 
 .Soldat3 {
-  position: absolute;
+  margin-top: 2vh;
   width: 20vw;
   height: auto;
-  top: 99vh;
-  right: 10vw;
 }
 
 

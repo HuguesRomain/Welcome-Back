@@ -5,9 +5,9 @@ class NextChapter extends Component {
   render () {
     return (
       <Link to={`/${this.props.next}`}>
-      <div className='NextChapter'>
-        Next Chapter
-      </div>
+        <div className='NextChapter'>
+          Next Chapter
+        </div>
       </Link>
     )
   }

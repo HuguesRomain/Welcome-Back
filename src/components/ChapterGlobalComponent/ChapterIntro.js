@@ -39,6 +39,8 @@ class IntroChapter1 extends Component {
 
         </div>
         <AudioTrack audioLink={this.state.AudioState.AudioData.audio.chapter1Audio.audio1} />
+        <p className="audioTrackSource">Extract from “The Vietnam War”, episode 2<br></br>
+        John Musgrave</p>
       </div>
     )
   }
