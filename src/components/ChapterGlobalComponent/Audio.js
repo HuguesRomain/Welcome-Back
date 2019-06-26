@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-
 import ReactWaves from '@dschoon/react-waves';
-import MusgraveLight from '../../assets/video/MusgraveLight.mp3'
+import AudioData from '../../data/AudioData';
 
 class AudioTrack extends Component {
   state = {
-    playing: false
+    playing: false,
+    AudioState: {AudioData},
   };
   render () {
     return (
@@ -15,7 +15,7 @@ class AudioTrack extends Component {
           { !this.state.playing ? <i class="far fa-play-circle"></i> : <i class="far fa-pause-circle"></i> }
         </div>
         <ReactWaves
-          audioFile={MusgraveLight}
+          audioFile={this.props.audioLink}
           className={'react-waves'}
           options={{
             barHeight: 2,

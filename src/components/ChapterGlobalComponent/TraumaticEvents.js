@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import imgData from '../../data/imgData'
 import VideoPetitChapter from '../ChapterGlobalComponent/VideoPetitChapter'
+import AudioData from '../../data/AudioData'; 
 
 class TraumaticEvents extends Component {
   state = {
@@ -24,7 +25,7 @@ class TraumaticEvents extends Component {
               had to face</span> when they returned, several factors can be put involved in their syndromes.
             </p>
             <div className='videoChapter1'>
-              <VideoPetitChapter />
+              <VideoPetitChapter link={'https://www.youtube.com/embed/JFXarq7J9Rc'} />
             </div>
             </div>
 

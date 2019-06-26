@@ -17,9 +17,9 @@ class Chapter1 extends Component {
           <TitleIntro />
           <IntroChapter1 />
           <ChapterSyndrome />
-          <VideoChapter />
+          <VideoChapter link={"https://www.youtube.com/embed/QZ0zf4voIao?"}/>
           <TraumaticEvents />
-          <VideoChapter />
+          <VideoChapter link={"https://www.youtube.com/embed/Si7iPh4c5Q8"} />
           <PtsdMechanism />
           <EndChapter />
           <NextChapter />
