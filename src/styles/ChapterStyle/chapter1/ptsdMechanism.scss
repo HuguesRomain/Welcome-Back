@@ -14,6 +14,13 @@
   }
 }
 
+.ptsdMechanism__contentBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .ptsdMechanism__content {
   display: flex;
   flex-direction: row;
@@ -38,10 +45,54 @@
 
   p {
     font-weight: lighter;
+    line-height: 2.5vh;
   }
 }
 
-.step {
-  line-height: 6vh;
-  
+.Step {
+  text-align: center;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10vh;
+
+  h3 {
+    line-height: 5vh;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+}
+
+.Steps {
+  transform: translateY(-1vh);
+  text-align: center;
+  width: 33vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h3 {
+    line-height: 5vh;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+}
+
+.quote2__chapter1__part1 {
+  margin: 10vh 0 0vh 0;
+  text-align: center;
+  line-height: 3vh;
+  font-size: 22px;
+  font-weight: bold;
+  width: 60vw;
+}
+
+.quote2__chapter1__part2 {
+  margin: 0vh 0 10vh 0;
+  text-align: end;
+  line-height: 3vh;
+  font-size: 22px;
+  font-weight: bold;
+  width: 60vw;
 }

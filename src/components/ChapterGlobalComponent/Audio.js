@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import ReactWaves from '@dschoon/react-waves';
-import theEnd from '../../assets/video/theEnd.mp3'
+import MusgraveLight from '../../assets/video/MusgraveLight.mp3'
 
 class AudioTrack extends Component {
   state = {
@@ -9,12 +9,13 @@ class AudioTrack extends Component {
   };
   render () {
     return (
+        
         <div className='containerAudio__track'>
         <div className="playButton__track" onClick={() => { this.setState({ playing: !this.state.playing }) }}>
-          { !this.state.playing ? '▶' : '||' }
+          { !this.state.playing ? <i class="far fa-play-circle"></i> : <i class="far fa-pause-circle"></i> }
         </div>
         <ReactWaves
-          audioFile={theEnd}
+          audioFile={MusgraveLight}
           className={'react-waves'}
           options={{
             barHeight: 2,

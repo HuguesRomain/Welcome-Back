@@ -12,6 +12,7 @@ const imgData = {
     Tank1: 'Tank1.png',
     Tank2: 'Tank2.png',
     Tank3: 'Tank3.png',
+    WelcomeBack: 'welcomeback.png'
   }
 }
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import imgData from '../../data/imgData'
+import VideoPetitChapter from '../ChapterGlobalComponent/VideoPetitChapter'
 
 class TraumaticEvents extends Component {
   state = {
@@ -22,7 +23,9 @@ class TraumaticEvents extends Component {
               seen, suffered during the war, the losses, the shock of defeat and contempt that <span className='yellow__span'>the soldiers
               had to face</span> when they returned, several factors can be put involved in their syndromes.
             </p>
-            <div className='videoChapter1'></div>
+            <div className='videoChapter1'>
+              <VideoPetitChapter />
+            </div>
             </div>
 
             <div className='part__TraumaticEvents__Content'>

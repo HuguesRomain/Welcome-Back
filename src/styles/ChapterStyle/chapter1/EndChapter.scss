@@ -1,0 +1,85 @@
+.EndChapter {
+  color: white;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier', sans-serif;
+
+  h2 {
+    margin: 10vh 0 10vh 0;
+    font-size: 4em;
+    font-weight: bolder;
+    font-family: 'Headliner No. 45', sans-serif;
+  }
+}
+
+.contentEndChapter {
+  width: 100vw;
+  display: flex; 
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 10vh;
+
+}
+
+.part__EndChapter {
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.part__EndChapter__Content {
+  width: 30vw;
+
+
+  h3 {
+    font-weight: bolder
+  }
+
+  h4 {
+    margin-top: 2vh;
+    font-weight: bold;
+  }
+
+  p {
+    margin-top: 4vh;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 3vh;
+  }
+}
+
+.part__EndChapter__Image {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: end;
+
+  p {
+    width: 35vw;
+    padding-bottom: 8vh;
+  }
+}
+
+
+.Soldat1 {
+  width: 35vw;
+  height: auto;
+}
+
+.button
+
+.quote1__chapter1 {
+  margin: 10vh 0 10vh 0;
+  text-align: end;
+  line-height: 3vh;
+  font-size: 22px;
+  font-weight: bold;
+}
