@@ -12,7 +12,7 @@ class DescriptionIntro extends Component {
 
     componentDidMount(){
       this.tween
-        .from(this.apear, 1,{ opacity: 0 })
+        .from(this.apear, 1,{ opacity: 0 }, 0.5)
     }
 
   render () {
