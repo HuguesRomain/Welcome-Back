@@ -2,6 +2,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url(../assets/img/background.jpg);
   color: white;
   overflow: hidden;
   
@@ -18,4 +19,12 @@
     z-index: 999;
     pointer-events: none;
   }
+}
+
+.divBlack {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: black;
+  z-index: -1;
 }
