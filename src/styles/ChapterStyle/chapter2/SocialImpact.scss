@@ -1,22 +1,36 @@
 .Title__SocialImpact{
   font-family: 'Headliner No. 45', sans-serif;
   font-size: 4em;
+  margin: 5%;
 }
 
 .paragraph__SocialImpact{
   width: 35vw;
   font-size: 16px;
+  text-align: right;
   font-family: 'Courier New', Courier, monospace;
 }
 .content__SocialImpact{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 70vw;
 }
 .first__part__SocialImpact{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 60vh;
 }
 
 .Soldats22{
-  width: 20vw;
+  height: 60vh;
+  width: 30vw;
+}
+
+.SocialImpact{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
