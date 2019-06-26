@@ -4,6 +4,8 @@ import AudioTrack from '../ChapterGlobalComponent/Audio'
 import IntroChapter from '../ChapterGlobalComponent/ChapterIntro'
 import IntroChapter2 from './ChapterIntro2';
 import QuoteChapter2 from './QuoteChapter2';
+import VideoChapter from '../ChapterGlobalComponent/VideoChapter';
+import SocialImpact from './SocialImpact';
 
 class Chapter2 extends Component {
   render () {
@@ -12,6 +14,8 @@ class Chapter2 extends Component {
         <TitleIntro />
         <IntroChapter2 />
         <QuoteChapter2 />
+        <VideoChapter />
+        <SocialImpact />
       </div>
     )
   }

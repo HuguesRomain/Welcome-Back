@@ -4,7 +4,7 @@ class QuoteChapter2 extends Component {
   render () {
     return (
       <p className='QuoteChapter2'>“I can’t finde a jobe all persone around me considerated mu like a
-criminal but i juste do my duty...”</p>
+  criminal but i juste do my duty...”</p>
     )
   }
 }
