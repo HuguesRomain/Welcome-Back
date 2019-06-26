@@ -1,6 +1,6 @@
 const ProfileData= {
   FirstProfile : {
-    Name: "CHAPITR I",
+    Name: "Chapter I",
     Img: "musgrave.png",
     Syndrome: "Fear Of The Dark",
     link: "JohnMusgrave",

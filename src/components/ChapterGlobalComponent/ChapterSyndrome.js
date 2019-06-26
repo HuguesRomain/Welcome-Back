@@ -17,7 +17,7 @@ class ChapterSyndrome extends Component {
           <div className='part__ChapterSyndrome'>
 
             <div className='part__ChapterSyndrome__Image'>
-              <img className='Soldat1'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Soldat2}`)} alt='logo' />
+              <img className='Soldats2'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Soldats2}`)} alt='logo' />
             </div>
 
             <div className='part__ChapterSyndrome__Content'>
@@ -27,7 +27,7 @@ class ChapterSyndrome extends Component {
                     diseases, digestive disorders, diabetes, hostility
                      and aggressiveness. 
                   </p>
-            <img className='Soldat3'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Soldat3}`)} alt='logo' />
+            <img className='Soldats3'src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Soldats3}`)} alt='logo' />
           </div>
 
           </div>
