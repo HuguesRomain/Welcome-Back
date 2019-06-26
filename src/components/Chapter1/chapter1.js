@@ -6,7 +6,7 @@ import VideoChapter from '../ChapterGlobalComponent/VideoChapter'
 import TraumaticEvents from '../ChapterGlobalComponent/TraumaticEvents'
 import PtsdMechanism from '../ChapterGlobalComponent/ptsdMechanism'
 import EndChapter from '../ChapterGlobalComponent/EndChapter'
-
+import NextChapter from '../ChapterGlobalComponent/NextChapter'
 
 class Chapter1 extends Component {
   render () {
@@ -22,6 +22,7 @@ class Chapter1 extends Component {
           <VideoChapter />
           <PtsdMechanism />
           <EndChapter />
+          <NextChapter />
         </div>
       </div>
     )

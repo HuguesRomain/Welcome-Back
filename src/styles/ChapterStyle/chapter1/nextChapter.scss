@@ -1,0 +1,14 @@
+.NextChapter {
+  color: white;
+  border: 1px solid yellow;
+  font-family: 'Headliner No. 45', sans-serif;
+  padding: 10px;
+  font-size: 1.3em;
+  margin-bottom: 5vh;
+  transition: all 0.3s ease;
+
+    &:hover {
+      color: yellow;
+      transform: scale(1.1);
+   }
+}
