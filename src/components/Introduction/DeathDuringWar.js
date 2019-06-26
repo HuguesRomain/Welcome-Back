@@ -14,9 +14,9 @@ class DeathDuringWar extends Component {
 
   componentDidMount(){
     this.tween
-      .from(this.apear, 1,{ opacity: 0 }, 1)
-      .from(this.apear2, 1, {opacity: 0 })
-      .from(this.blowUp, 1,{ y: 20, autoAlpha: 0})
+      .from(this.apear, 0.7,{ opacity: 0 }, 1)
+      .from(this.apear2, 0.7, {opacity: 0 })
+      .from(this.blowUp, 0.7,{ y: 20, autoAlpha: 0})
   }
 
   render () {

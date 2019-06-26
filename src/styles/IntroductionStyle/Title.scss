@@ -21,7 +21,7 @@
     content: '';
     display: block;
     transform: translateX(1vw);
-    animation: start 1s forwards;
+    animation: start 3s forwards;
   }
   &::before {
     width: 25vw;
@@ -29,7 +29,7 @@
     background-color: #F8EF48;
     content: '';
     display: block;
-    animation: start 1s forwards;
+    animation: start 3s forwards;
     transform: translateX(-1vw);
   }
 }
