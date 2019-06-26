@@ -18,7 +18,7 @@
   width: 100vw;
   display: flex; 
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom: 10vh;
 
 }
@@ -79,7 +79,6 @@
 .videoChapter1 {
   height: 30vh;
   width: 30vw;
-  background-color: grey;
   margin: 15vh 0 10vh 0;
 
   &::after {
@@ -88,8 +87,8 @@
     width: 20px;
     height: 20px;
     position: relative;
-    bottom: 4.5vh;
-    right: -29.5vw;
+    bottom: 34.5vh;
+    right: -31.5vw;
     border-top: 2px solid yellow;
     border-right: 2px solid yellow;
   }
@@ -100,7 +99,7 @@
     width: 20px;
     height: 20px;
     position: relative;
-    bottom: -29vh;
+    bottom: -34vh;
     left: -1.5vw;
     border-bottom: 2px solid yellow;
     border-left: 2px solid yellow;
