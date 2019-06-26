@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 import textData from '../../data/ChapterData'
 import imgData from '../../data/imgData'
 import AudioTrack from '../ChapterGlobalComponent/Audio'
+import AudioData from '../../data/AudioData'
 
 class IntroChapter1 extends Component {
   state = {
     img: {imgData},
+    AudioState: {AudioData}
   }
   render () {
     return (
@@ -34,7 +36,7 @@ class IntroChapter1 extends Component {
           </div>
 
         </div>
-        <AudioTrack />
+        <AudioTrack audioLink={this.state.AudioState.AudioData.audio.chapter1Audio.audio1} />
       </div>
     )
   }

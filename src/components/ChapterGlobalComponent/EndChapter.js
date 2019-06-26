@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import imgData from '../../data/imgData'
+import AudioTrack from '../ChapterGlobalComponent/Audio'
+import AudioData from '../../data/AudioData';
 
 class EndChapter extends Component {
 
   state = {
     img: {imgData},
+    AudioState: {AudioData},
   }
   render () {
     return (
@@ -26,8 +29,8 @@ class EndChapter extends Component {
                   <span className='yellow__span'>The PTSD was not recognized</span> as a disease at the time, the government has very poorly supported his soldiers. Unemployment, drug addiction, poverty, health and psychological problems were the daily lives of the soldiers.
                   </p>
           </div>
-
         </div>
+        <AudioTrack audioLink={this.state.AudioState.AudioData.audio.chapter1Audio.audio3}/>
       </div>
     )
   }
