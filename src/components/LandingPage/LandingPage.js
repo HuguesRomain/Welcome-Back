@@ -16,6 +16,7 @@ class LandingPage extends Component {
           <div className='content__LandingPage'> 
           
           <Video  />
+          <div className='divBlack'></div>
             <TitleLandingPage />
             <ContentLandingPage />
             <Button name={'Start the story'} />    
