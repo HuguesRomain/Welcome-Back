@@ -6,6 +6,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 function App() {
   return (
     <div className="App">
+       <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"></link>
       <LandingPage />
     </div>
   );
