@@ -1,3 +1,8 @@
+@keyframes start {
+  from{width: 0vw;}
+  to{width: 25vw;}
+}
+
 .Title{
   display: flex;
   align-items: center;
@@ -10,12 +15,13 @@
   margin-top: 2vh;
 
   &::after {
-    width: 25vw;
+    width: 0vw;
     height: 0.15vh;
     background-color: #F8EF48;
     content: '';
     display: block;
     transform: translateX(1vw);
+    animation: start 1s forwards;
   }
   &::before {
     width: 25vw;
@@ -23,6 +29,7 @@
     background-color: #F8EF48;
     content: '';
     display: block;
+    animation: start 1s forwards;
     transform: translateX(-1vw);
   }
 }
