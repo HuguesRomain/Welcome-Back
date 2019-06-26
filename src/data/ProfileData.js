@@ -7,13 +7,13 @@ const ProfileData= {
   },
   SecondProfile : {
     Name: "Chapter II",
-    Img: "musgrave.png",
+    Img: 'musgrave.png',
     Syndrome: "Worse Than War",
     link: "ChapterII",
   },
   ThirdProfile : {
     Name: "Chapter III",
-    Img: "musgrave.png",
+    Img: 'musgrave.png',
     Syndrome: "Believed It Will Go",
     link: "ChapterIII",
   },

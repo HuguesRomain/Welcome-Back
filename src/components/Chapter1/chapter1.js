@@ -22,7 +22,7 @@ class Chapter1 extends Component {
           <VideoChapter link={"https://www.youtube.com/embed/Si7iPh4c5Q8"} />
           <PtsdMechanism />
           <EndChapter />
-          <NextChapter />
+          <NextChapter next={'ChapterII'}/>
         </div>
       </div>
     )

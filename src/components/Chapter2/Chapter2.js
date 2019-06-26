@@ -16,6 +16,7 @@ class Chapter2 extends Component {
         <QuoteChapter2 />
         <VideoChapter />
         <SocialImpact />
+        <VideoChapter />
       </div>
     )
   }
