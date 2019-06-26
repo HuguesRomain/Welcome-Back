@@ -15,7 +15,8 @@ class Audio extends Component {
       return (
         <Fragment>
         <div className="playButton" onClick={() => { this.setState({ playing: !this.state.playing }) }}>
-          { !this.state.playing ? '▶' : '| |' }
+          { !this.state.playing ? <i class="fas fa-volume-up"></i> :
+<i class="fas fa-volume-mute"></i> }
         </div>
         <div className='containerAudio'>
         
