@@ -1,4 +1,4 @@
-.Veterans {
+.Therapy {
   color: white;
   display: flex;
   align-content: space-around;
@@ -14,7 +14,7 @@
   }
 }
 
-.contentVeterans {
+.contentTherapy {
   width: 100vw;
   display: flex; 
   justify-content: center;
@@ -23,27 +23,27 @@
 
 }
 
-.part__Veterans {
+.part__Therapy {
   width: 100vw;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-content: space-between;
   justify-content: center;
   align-items: center;
 }
 
-.nameVeterans {
+.nameTherapy {
   font-size: 2em;
 }
 
 
-.part__Veterans__Content {
-  width: 45vw;
-  text-align: start;
+.part__Therapy__Content {
+  width: 40vw;
+  text-align: end;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   align-content: space-around;
   margin-left: 2.5vw;
 
@@ -56,7 +56,7 @@
   }
 }
 
-.part__Veterans__Image {
+.part__Therapy__Image {
   width: 40vw;
   display: flex;
   flex-direction: column;
@@ -80,23 +80,33 @@
   font-weight: bold;
 }
 
-.part__Veterans__text {
+.part__Therapy__text {
   padding-top: 6vh;
   width: 40vw;
-  text-align: end;
 }
 
-.Veterans1 {
+.VideoPetitSource {
+  text-align: end;
+  transform: translateX(2vw);
+  padding-top: 2vh;
+}
+
+.Trauma1 {
   width: 24vw;
   margin-bottom: 15vh;
 }
 
-.Veterans2 {
+.Trauma2 {
   width: 26vw;
 }
 
-.Veterans3 {
+.Trauma3 {
   position: absolute;
   width: 22vw;
-  left: 26vw;
+  right: 20vw;
+}
+
+.videoChapter3 {
+  width: 30vw;
+  margin-top: 5vh;
 }

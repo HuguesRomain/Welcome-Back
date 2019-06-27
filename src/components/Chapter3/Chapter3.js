@@ -3,6 +3,7 @@ import TitleIntro from '../Introduction/title'
 import ChapterIntro3 from './ChapterIntro3'
 import VideoChapter from '../ChapterGlobalComponent/VideoChapter'
 import Veterans from '../Chapter3/Veterans'
+
 import NextChapter from '../ChapterGlobalComponent/NextChapter'
 import Transmission from './Transmission';
 
@@ -16,7 +17,6 @@ class Chapter3 extends Component {
           <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
           <Veterans />
           <Transmission />
-
           <NextChapter next={'Introduction'}/>
         </div>
       </div>
