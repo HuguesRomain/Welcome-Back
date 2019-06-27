@@ -3,6 +3,7 @@ import ProfileData from '../../data/ProfileData';
 import { inherits } from 'util';
 import {Link} from 'react-router-dom';
 
+
 const ProfileCard = ({ detailsProfile }) => {
   return (
    <Link to={`/${detailsProfile.link}`}> <div style={{backgroundImage: `url(../../assets/img/${detailsProfile.Img})`}} className='card__profile'>
