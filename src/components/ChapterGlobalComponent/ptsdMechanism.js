@@ -9,6 +9,7 @@ class PtsdMechanism extends Component {
     return (
       <div className='ptsdMechanism'>
         <h2>THE PTSD MECHANISM</h2>
+        <div className="traitSchema"></div>
         <div className='ptsdMechanism__contentBlock'>
           <div className='ptsdMechanism__content'>
             <div className='Steps'>

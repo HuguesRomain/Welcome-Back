@@ -12,6 +12,7 @@ class ChapterSyndrome extends Component {
     return (
         <div className='ChapterSyndrome'>
         <h2>PTSD</h2>
+        <div className="traitPTSD"></div>
         <div className='contentChapterSyndrome'>
 
           <div className='part__ChapterSyndrome'>
