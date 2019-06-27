@@ -4,6 +4,8 @@ import ChapterIntro3 from './ChapterIntro3'
 import VideoChapter from '../ChapterGlobalComponent/VideoChapter'
 import Veterans from '../Chapter3/Veterans'
 import NextChapter from '../ChapterGlobalComponent/NextChapter'
+import Measures from '../Chapter3/Measures'
+import Therapy from '../Chapter3/Therapy'
 
 class Chapter3 extends Component {
   render () {
@@ -14,8 +16,11 @@ class Chapter3 extends Component {
           <ChapterIntro3 />
           <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
           <Veterans />
-
-
+          <Measures />
+          <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+          <Therapy />
+          <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+          
           <NextChapter />
         </div>
       </div>
