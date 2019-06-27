@@ -12,7 +12,7 @@
   height: 650px;
   background-color: yellow;
   position: absolute;
-  margin-top: 22%;
+  margin-top: 21%;
 }
 
 .chapter1__content {
@@ -121,6 +121,14 @@
   line-height: 3vh;
   font-size: 22px;
   font-weight: bold;
+  &::before{
+    content: '';
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translate(148px, 73px)
+  }
 }
 
 .Jim1 {
