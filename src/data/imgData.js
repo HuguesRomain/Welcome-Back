@@ -6,9 +6,14 @@ const imgData = {
   },
   Chapter1: {
     Soldat1: 'Soldat1.png',
-    Soldat2: 'Soldats2.png',
-    Soldat3: 'Soldats3.png',
-    Soldat4: 'Soldats4.png',
+    Soldat2: 'Soldat2.png',
+    Soldat3: 'Soldat3.png',
+    Soldats1: 'Soldats1.png',
+    Soldats2: 'Soldats2.png',
+    Soldats3: 'Soldats3.png',
+    Trauma1: 'Trauma1.png',
+    Trauma2: 'Trauma2.png',
+    Trauma3: 'Trauma3.png',
     Tank1: 'Tank1.png',
     Tank2: 'Tank2.png',
     Tank3: 'Tank3.png',
@@ -19,6 +24,11 @@ const imgData = {
     Soldat22: 'Soldats22.png',
     Soldat23: 'Soldats23.png',
     Soldat24: 'Soldats24.png',
+  },
+  Chapter3: {
+    Murphy1: 'JimMurphy1.png',
+    Murphy2: 'JimMurphy2.png',
+    Murphy3: 'JimMurphy3.png',
   }
 }
 

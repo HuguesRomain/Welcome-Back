@@ -42,7 +42,11 @@
   text-align: start;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: space-around;
   margin-left: 2.5vw;
+
 
   p {
     margin-bottom: 3vh;
@@ -87,7 +91,7 @@
     width: 20px;
     height: 20px;
     position: relative;
-    bottom: 34.5vh;
+    bottom: 40.5vh;
     right: -31.5vw;
     border-top: 2px solid yellow;
     border-right: 2px solid yellow;
@@ -108,5 +112,26 @@
 
 .part__TraumaticEvents__text {
   padding-top: 6vh;
-  width: 37vw;
+  width: 40vw;
+}
+
+.VideoPetitSource {
+  text-align: end;
+  transform: translateX(2vw);
+  padding-top: 2vh;
+}
+
+.Trauma1 {
+  width: 24vw;
+  margin-bottom: 15vh;
+}
+
+.Trauma2 {
+  width: 26vw;
+}
+
+.Trauma3 {
+  position: absolute;
+  width: 22vw;
+  right: 20vw;
 }

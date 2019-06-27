@@ -26,12 +26,15 @@ class TraumaticEvents extends Component {
             </p>
             <div className='videoChapter1'>
               <VideoPetitChapter link={'https://www.youtube.com/embed/JFXarq7J9Rc'} />
+              <p className='VideoPetitSource'>Extract from “The Vietnam War”, episode 5</p>
             </div>
             </div>
 
             <div className='part__TraumaticEvents__Content'>
 
-            <img className='Soldat4' src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Soldat4}`)} alt='logo' />
+            <img className='Trauma1' src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Trauma1}`)} alt='logo' />
+            <img className='Trauma2' src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Trauma2}`)} alt='logo' />
+            <img className='Trauma3' src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Trauma3}`)} alt='logo' />
           </div>
 
           </div>

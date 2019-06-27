@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 class QuoteChapter2 extends Component {
   render () {
     return (
-      <p className='QuoteChapter2'>“I can’t finde a jobe all persone around me considerated mu like a
-  criminal but i juste do my duty...”</p>
+      <p className='QuoteChapter2'>“I can’t finde a job everyone around me considerated me like a
+  criminal but i've just done my duty...”</p>
     )
   }
 }

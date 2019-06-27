@@ -12,7 +12,7 @@ class AudioTrack extends Component {
         
         <div className='containerAudio__track'>
         <div className="playButton__track" onClick={() => { this.setState({ playing: !this.state.playing }) }}>
-          { !this.state.playing ? <i class="far fa-play-circle"></i> : <i class="far fa-pause-circle"></i> }
+          { !this.state.playing ? <i className="far fa-play-circle"></i> : <i className="far fa-pause-circle"></i> }
         </div>
         <ReactWaves
           audioFile={this.props.audioLink}
