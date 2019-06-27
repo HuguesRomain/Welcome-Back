@@ -18,8 +18,8 @@ class TitleLandingPage extends Component {
   render () {
     return (
       <Fragment>
-        <h1 className='title__LandingPage' ref={ h1 => this.titleApear = h1 } >VIETNAM'S WAR TRAUMA</h1>
-        <h2 className='undesTitle__LandingPage' ref={ h2 => this.secondApear = h2 } >WELCOME BACK</h2>
+        <h1 className='title__LandingPage' ref={ h1 => this.titleApear = h1 } >WELCOME BACK</h1>
+        <h2 className='undesTitle__LandingPage' ref={ h2 => this.secondApear = h2 }>WAR IS NOT OVER</h2>
       </Fragment>
     )
   }

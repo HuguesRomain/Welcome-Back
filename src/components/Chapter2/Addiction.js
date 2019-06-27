@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import VideoPetitChapter from '../ChapterGlobalComponent/VideoPetitChapter';
+import imgData from '../../data/imgData'
 
 class Addiction extends Component {
+  state = {
+    img: {imgData},
+  }
   render () {
     return (
       <div className='addiction'>
@@ -26,9 +30,14 @@ class Addiction extends Component {
                 Two Vietnam veteran
                   Extract from “GI Junkies: The Forgotten Veterans”
               </p>
-              </div>
+            </div>
           </div>
+          <div className='addiction__image'>
+        <img className='Addiction1'src={require(`../../assets/img/${this.state.img.imgData.Chapter2.Addiction1}`)} alt='logo' />
+        <img className='Addiction2'src={require(`../../assets/img/${this.state.img.imgData.Chapter2.Addiction2}`)} alt='logo' />
         </div>
+        </div>
+        
       </div>
     )
   }

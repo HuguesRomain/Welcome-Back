@@ -20,10 +20,19 @@ const imgData = {
     WelcomeBack: 'welcomeback.png'
   },
   Chapter2: {
+    Jim1: 'Jim1.png',
+    Jim2: 'Jim2.png',
+    Jim3: 'Jim3.png',
     Soldat21: 'Soldat21.png',
     Soldat22: 'Soldats22.png',
     Soldat23: 'Soldats23.png',
     Soldat24: 'Soldats24.png',
+    Addiction1: 'Addiction1.png',
+    Addiction2: 'Addiction2.png',
+    Health1: 'Health1.png',
+    Health2: 'Health2.png',
+    PersonalLife1: 'PersonalLife1.png',
+    PersonalLife2: 'PersonalLife2.png',
   },
   Chapter3: {
     Murphy1: 'JimMurphy1.png',

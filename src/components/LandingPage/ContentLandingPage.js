@@ -24,7 +24,7 @@ class ContentLandingPage extends Component {
   render () {
     return (
       <Fragment>
-        <p className='quote__LandingPage' ref={ p => this.textApear = p }>“The War is Only Begin“</p>
+        <p className='quote__LandingPage' ref={ p => this.textApear = p }>Vietnam’s war Trauma</p>
         <div className='logo__LandingPage' ref={ div => this.imgApear = div }>
           <img src={require(`../../assets/img/${this.state.img.imgData.LandingPage.Logo}`)} alt='logo' />
         </div>

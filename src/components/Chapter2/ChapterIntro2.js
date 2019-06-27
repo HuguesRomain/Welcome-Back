@@ -30,7 +30,9 @@ class IntroChapter2 extends Component {
             </div>
           </div>
           <div className='part__introChapter__Image'>
-            <img className='Soldat1'src={require(`../../assets/img/${this.state.img.imgData.Chapter2.Soldat21}`)} alt='logo' />
+            <img className='Jim2'src={require(`../../assets/img/${this.state.img.imgData.Chapter2.Jim1}`)} alt='logo' />
+            <img className='Jim1'src={require(`../../assets/img/${this.state.img.imgData.Chapter2.Jim2}`)} alt='logo' />
+            <img className='Jim3'src={require(`../../assets/img/${this.state.img.imgData.Chapter2.Jim3}`)} alt='logo' />
           </div>
         </div>
       </div>

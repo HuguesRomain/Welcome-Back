@@ -91,7 +91,7 @@
   width: 20vw;
   height: auto;
   right: 22vw;
-  top: 74vh;
+  top: 67vh;
   z-index: 1;
 }
 
@@ -113,4 +113,22 @@
   line-height: 3vh;
   font-size: 22px;
   font-weight: bold;
+}
+
+.Jim1 {
+  position: absolute;
+  transform: translate(-14vw, 10vh);
+  width: 20vw;
+}
+
+.Jim2 {
+  margin-top: 20vh;
+  width: 25vw;
+  height: auto;
+}
+
+.Jim3 {
+  margin-top: 2vh;
+  width: 20vw;
+  height: auto;
 }
