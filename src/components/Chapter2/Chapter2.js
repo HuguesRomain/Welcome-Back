@@ -24,7 +24,7 @@ class Chapter2 extends Component {
         <Health />
         <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
         <PersonalLife />
-        <NextChapter />
+        <NextChapter next={'ChapterIII'}/>
       </div>
     )
   }

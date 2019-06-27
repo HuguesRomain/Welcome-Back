@@ -4,6 +4,7 @@ import ChapterIntro3 from './ChapterIntro3'
 import VideoChapter from '../ChapterGlobalComponent/VideoChapter'
 import Veterans from '../Chapter3/Veterans'
 import NextChapter from '../ChapterGlobalComponent/NextChapter'
+import Transmission from './Transmission';
 
 class Chapter3 extends Component {
   render () {
@@ -14,9 +15,9 @@ class Chapter3 extends Component {
           <ChapterIntro3 />
           <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
           <Veterans />
+          <Transmission />
 
-
-          <NextChapter />
+          <NextChapter next={'Introduction'}/>
         </div>
       </div>
     )

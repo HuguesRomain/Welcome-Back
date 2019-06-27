@@ -41,6 +41,8 @@ const imgData = {
     Veterans1: 'Veterans1.png',
     Veterans2: 'Veterans2.png',
     Veterans3: 'Veterans3.png',
+    Transmission1: 'transimission1.png',
+    Transmission2: 'transimission2.png'
   }
 }
 
