@@ -11,6 +11,7 @@ class TraumaticEvents extends Component {
     return (
         <div className='TraumaticEvents'>
         <h2>TRAUMATIC EVENTS</h2>
+        <div className="traitPTSD"></div>
         <div className='contentTraumaticEvents'>
 
           <div className='part__TraumaticEvents'>

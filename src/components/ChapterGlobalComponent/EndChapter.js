@@ -13,6 +13,7 @@ class EndChapter extends Component {
     return (
         <div className='EndChapter'>
           <h2>WELCOME BACK</h2>
+          <div className="traitBack"></div>
         <div className='contentEndChapter'>
 
           <div className='part__EndChapter'>
