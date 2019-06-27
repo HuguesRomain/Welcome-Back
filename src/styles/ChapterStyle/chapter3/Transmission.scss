@@ -1,0 +1,57 @@
+.Transmission{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Transmission__title{
+  margin: 10vh 0 12.5vh 0;
+  font-size: 4em;
+  font-family: 'Headliner No. 45', sans-serif;
+}
+
+.Transmission__content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.Transmission__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25vh;
+}
+
+.Transmission__text--1{
+  width: 22vw;
+}
+
+.Transmission__text--2{
+  width: 35vw;
+}
+
+.Transmission__img{
+  display: flex;
+  flex-direction: column;
+}
+
+.Transmission1{
+  position: relative;
+  right: 10vw;
+  top: 1vh;
+  width: 25vw;
+  z-index: 1;
+}
+
+.Transmission2{
+  z-index: 2;
+  position: relative;
+  right: -5vw;
+  top: -17vh;
+  width: 25vw;
+} 

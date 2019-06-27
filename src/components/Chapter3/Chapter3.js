@@ -3,9 +3,10 @@ import TitleIntro from '../Introduction/title'
 import ChapterIntro3 from './ChapterIntro3'
 import VideoChapter from '../ChapterGlobalComponent/VideoChapter'
 import Veterans from '../Chapter3/Veterans'
-import NextChapter from '../ChapterGlobalComponent/NextChapter'
-import Measures from '../Chapter3/Measures'
 import Therapy from '../Chapter3/Therapy'
+import Transmission from '../Chapter3/Transmission'
+import NextChapter from '../ChapterGlobalComponent/NextChapter'
+import Measures from './Measures'
 
 class Chapter3 extends Component {
   render () {
@@ -20,8 +21,8 @@ class Chapter3 extends Component {
           <VideoChapter link={'https://www.youtube.com/embed/LZqucSgOakc'}/>
           <Therapy />
           <VideoChapter link={'https://www.youtube.com/embed/eNphgZCXz40'}/>
-          
-          <NextChapter />
+          <Transmission />
+          <NextChapter next={'Introduction'}/>
         </div>
       </div>
     )
