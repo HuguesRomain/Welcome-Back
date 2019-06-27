@@ -17,9 +17,9 @@ class Chapter3 extends Component {
           <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
           <Veterans />
           <Measures />
-          <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+          <VideoChapter link={'https://www.youtube.com/embed/LZqucSgOakc'}/>
           <Therapy />
-          <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+          <VideoChapter link={'https://www.youtube.com/embed/eNphgZCXz40'}/>
           
           <NextChapter />
         </div>

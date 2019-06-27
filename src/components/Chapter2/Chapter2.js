@@ -17,12 +17,12 @@ class Chapter2 extends Component {
          <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"></link>
         <TitleIntro />
         <IntroChapter2 />
-        <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+        <VideoChapter link={'https://www.youtube.com/embed/W2pKAZJVEaM'}/>
         <SocialImpact />
-        <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+        <VideoChapter link={'https://www.youtube.com/embed/fEglDEFGs58'}/>
         <Addiction />
         <Health />
-        <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+        <VideoChapter link={'https://www.youtube.com/embed/eBIw8fMneRg'}/>
         <PersonalLife />
         <NextChapter />
       </div>
