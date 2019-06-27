@@ -15,7 +15,7 @@ class Chapter3 extends Component {
         <div className='chapter3__content'>
           <TitleIntro />
           <ChapterIntro3 />
-          <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+          <VideoChapter link={'https://www.youtube.com/embed/uP4TRK6KX6w'}/>
           <Veterans />
           <Measures />
           <VideoChapter link={'https://www.youtube.com/embed/LZqucSgOakc'}/>

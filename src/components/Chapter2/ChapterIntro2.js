@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import textData from '../../data/ChapterData'
 import imgData from '../../data/imgData'
-import AudioTrack from '../ChapterGlobalComponent/Audio'
 
 class IntroChapter2 extends Component {
   state = {

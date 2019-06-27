@@ -24,7 +24,7 @@
   font-family: 'Courier', sans-serif;
 
   h1 {
-    margin: 10vh 0 0vh 0;
+    margin: 5vh 0 0vh 0;
     font-size: 4em;
     font-weight: bolder;
     font-family: 'Headliner No. 45', sans-serif;
@@ -36,7 +36,6 @@
   display: flex; 
   justify-content: center;
   flex-direction: row;
-  padding-bottom: 10vh;
   height: 80vh
 
 }
@@ -47,7 +46,6 @@
   flex-direction: column;
   align-content: space-between;
   justify-content: center;
-  align-items: center;
 }
 
 .nameIntroChapter {
@@ -91,7 +89,7 @@
   width: 20vw;
   height: auto;
   right: 22vw;
-  top: 67vh;
+  top: 62vh;
   z-index: 1;
 }
 

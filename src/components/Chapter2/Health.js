@@ -21,14 +21,14 @@ class Health extends Component {
             <div className='part__Health__Content'>
 
                   <p>
-                  Vietnam veterans' mortality is 7% higher than other fighters.
+                  Vietnam veterans' mortality is <span className='yellow__span'>7% higher than other fighters</span>.
                   </p>
                   <p>
-                  In addition to external causes such as overdoses or suicide, many veterans have died from chronic illness. One of the known factors is the poisoning caused by the use of Agent Orange by the US military in Vietnam. 
+                  In addition to external causes such as overdoses or suicide, many veterans have died from chronic illness. One of the known factors is the poisoning caused by the use of <span className='yellow__span'>Agent Orange by the US military in Vietnam</span>. 
                   </p>
 
                   <p>
-                  It is the cause of a high rate of diabetes among veterans and Agent Orange has have been suspected of causing cancer, lymphoma, leukemia, sarcoma...
+                  It is the cause of a high rate of diabetes among veterans and <span className='yellow__span'>Agent Orange has have been suspected of causing cancer, lymphoma, leukemia, sarcoma...</span>
                   </p>
             </div>
           </div>

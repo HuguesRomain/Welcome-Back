@@ -18,10 +18,10 @@ class Addiction extends Component {
             </p>
             <p>
               Many veterans returned with addiction and many others sank to their arrival : <br/>
-              A majority of them consume alcohol and marijuana. As for the opiods, 30% of the soldiers are addicted to opium, heroin, amphetamines and barbiturates.
+              A majority of them consume alcohol and marijuana. As for the opiods, <span className='yellow__span'>30% of the soldiers are addicted to opium, heroin, amphetamines and barbiturates</span>.
             </p>{}
             <p>
-              It is estimated that 100 000 veterans died from drugs (overdose, homicide…), 50% of accidental deaths are due to overdoses.
+              It is estimated that <span className='yellow__span'>100 000 veterans died from drugs </span>(overdose, homicide…), 50% of accidental deaths are due to overdoses.
             </p>
             </div>
             <div className="addiction__video">

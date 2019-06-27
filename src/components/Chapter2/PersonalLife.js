@@ -18,12 +18,12 @@ class PersonalLife extends Component {
           <div className='part__PersonalLife'>
             <div className='part__PersonalLife__Content'>
               <p>
-                In the United States, 30% of suicides involve soldiers. 
+                In the United States, <span className='yellow__span'>30% of suicides involve soldiers</span>. 
                 Veterans of Vietnam  is the community most affected by suicide.
               </p>
               <p>
                 Moreover, their personal lives are upset.
-                75% complain of marital and professional problems.
+                <span className='yellow__span'>75% complain of marital and professional problems</span>.
               </p>
               <p>
                 These veterans have a high rate of divorce, their partners are 

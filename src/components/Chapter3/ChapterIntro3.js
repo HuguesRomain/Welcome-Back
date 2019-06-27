@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import imgData from '../../data/imgData'
-import AudioTrack from '../ChapterGlobalComponent/Audio'
 import AudioData from '../../data/AudioData'
 
 class IntroChapter3 extends Component {
