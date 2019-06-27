@@ -3,12 +3,26 @@ import textData from '../../data/ChapterData'
 import imgData from '../../data/imgData'
 import AudioTrack from '../ChapterGlobalComponent/Audio'
 import AudioData from '../../data/AudioData'
+import {TimelineLite} from 'gsap'
 
 class IntroChapter1 extends Component {
   state = {
     img: {imgData},
     AudioState: {AudioData}
   }
+   
+  constructor(props){
+    super(props);
+      this.tween = new TimelineLite({ paused:false });
+  
+      this.trace = null;
+      }   
+  
+      componentDidMount(){
+        this.tween
+        .from(this.trace, 3,{ height: 0}, 1)
+      }
+
   render () {
     return (
       <div className='IntroChapter'>
@@ -16,6 +30,7 @@ class IntroChapter1 extends Component {
           <p className='quote1__chapter1'>“I’m still scared of the dark”<br/>
           - John Musgrave -
           </p>
+          <div className="trait" ref={ div => this.trace = div}></div>
         <div className='contentIntroChapter'>
 
           <div className='part__introChapter'>
