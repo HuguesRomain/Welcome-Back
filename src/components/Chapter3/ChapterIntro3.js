@@ -34,14 +34,19 @@ class IntroChapter3 extends Component {
                      anti-war that I must undertake.”  
                   </p>
                   <img className='Murphy1'src={require(`../../assets/img/${this.state.img.imgData.Chapter3.Murphy1}`)} alt='logo' />
+                  <p className="audioTrackSource">
+                  Interview for 4ACG  <br /> <br />Jim Murphy </p>
             </div>
           </div>
           <div className='part__introChapter3__Image'>
             <img className='Murphy2'src={require(`../../assets/img/${this.state.img.imgData.Chapter3.Murphy2}`)} alt='logo' />
             <img className='Murphy3'src={require(`../../assets/img/${this.state.img.imgData.Chapter3.Murphy3}`)} alt='logo' />
           </div>
-
+          
         </div>
+        <p className='quote2__chapter1__part1'>“We don't need parades, plaques and certificates, just respect and recognition”</p><br/><br/>
+            <p className='quote2__chapter1__part2'>- Randy Fowler, Vietnam veteran -
+            </p>
       </div>
     )
   }

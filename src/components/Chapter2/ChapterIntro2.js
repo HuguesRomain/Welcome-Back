@@ -11,7 +11,7 @@ class IntroChapter2 extends Component {
     return (
       <div className='IntroChapter'>
         <h1>CHAPTER II</h1>
-          <p className='quote1__chapter1'>““ Worse than what we experienced during the war “ ”<br/>
+          <p className='quote1__chapter1'>“ Worse than what we experienced during the war“<br/>
           - Jim Markson -
           </p>
         <div className='contentIntroChapter'>

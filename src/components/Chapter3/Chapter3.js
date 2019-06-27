@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import TitleIntro from '../Introduction/title'
-import  ChapterIntro3 from './ChapterIntro3'
+import ChapterIntro3 from './ChapterIntro3'
+import VideoChapter from '../ChapterGlobalComponent/VideoChapter'
+import Veterans from '../Chapter3/Veterans'
+import NextChapter from '../ChapterGlobalComponent/NextChapter'
 
 class Chapter3 extends Component {
   render () {
@@ -9,6 +12,11 @@ class Chapter3 extends Component {
         <div className='chapter3__content'>
           <TitleIntro />
           <ChapterIntro3 />
+          <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+          <Veterans />
+
+
+          <NextChapter />
         </div>
       </div>
     )
