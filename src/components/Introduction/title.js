@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import textData from '../../data/textData';
 import {Link} from 'react-router-dom';
 
 class TitleIntro extends Component {
-  state = {
-    TextData: {textData},
-  }
   
   render () {
     return (

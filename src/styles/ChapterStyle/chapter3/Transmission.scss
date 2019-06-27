@@ -23,7 +23,6 @@
 .Transmission__text{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 40vh;
   font-weight: 600;
   line-height: 2.5vh;
@@ -55,8 +54,8 @@
 .Transmission2{
   z-index: 2;
   position: relative;
-  right: -5vw;
-  top: -17vh;
+  right: -1vw;
+  top: -10vh;
   width: 25vw;
 } 
 

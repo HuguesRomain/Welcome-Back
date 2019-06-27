@@ -26,6 +26,7 @@
   flex-direction: column;
   width: 35vw;
   height: 35vh;
+  font-weight: lighter;
 
   p {
     margin-bottom: 5vh;
@@ -54,7 +55,7 @@
   .Addiction1 {
     position: absolute;
     width: 25vw;
-    right: 6vw;
+    right: 7vw;
     transform: translateY(24vh);
   }
 
@@ -77,18 +78,18 @@
     flex-direction: column;
     justify-content: center;
     
-
     p {
       width: 100vw;
-
     }
 
     .addiction__video {
       transform: translate(10vw, 30vh);
+
       p {
         width: 80vw;
-      }
+      }   
     }
+
     .VideoPetitChapter {
       width: 80vw; 
     }

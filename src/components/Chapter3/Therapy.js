@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import imgData from '../../data/imgData'
 import VideoPetitChapter from '../ChapterGlobalComponent/VideoPetitChapter'
-import AudioData from '../../data/AudioData'; 
+
 
 class TraumaticEvents extends Component {
   state = {
@@ -17,7 +17,7 @@ class TraumaticEvents extends Component {
 
             <div className='part__Therapy__Image'>
             <div className='videoChapter3'>
-              <VideoPetitChapter link={'https://www.youtube.com/embed/JFXarq7J9Rc'} />
+              <VideoPetitChapter link={'https://www.youtube.com/embed/gafDF3DKVnk'} />
               <p className='VideoPetitSource'>Jim Alderman, Marine Corps veteran
                 Extract from “Bay Pine VA Health Center Adresses PTSD” by US Department of Defense
               </p>

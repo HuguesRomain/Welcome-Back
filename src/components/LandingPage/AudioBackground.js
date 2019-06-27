@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react'
-import Sound from 'react-sound'
 import ReactWaves from '@dschoon/react-waves';
 import theEnd from '../../assets/video/theEnd.mp3'
 

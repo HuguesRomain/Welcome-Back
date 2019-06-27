@@ -1,6 +1,4 @@
 import React from 'react'
-import ProfileData from '../../data/ProfileData';
-import { inherits } from 'util';
 import {Link} from 'react-router-dom';
 
 

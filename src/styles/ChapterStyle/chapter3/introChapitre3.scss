@@ -54,12 +54,12 @@
 }
 
 
+
 .part__introChapter3__Content {
   width: 30vw;
   display: flex;
   align-items: center;
   flex-direction: column;
-
 
   h3 {
     font-weight: bolder;
@@ -74,12 +74,17 @@
 
   p {
     margin-top: 4vh;
-    padding-bottom: 13vh;
+    padding-bottom: 10vh;
     font-weight: lighter;
     font-size: 16px;
     line-height: 3vh;
     width: 30vw;
   }
+}
+
+.audioTrackSource {
+  text-align: center;
+  line-height: 2vh;
 }
 
 .part__introChapter3__Image {
@@ -108,15 +113,15 @@
 
 .Murphy2 {
   position: relative;
-  right: -20vw;
-  top: -17vh;
+  right: -15vw;
+  top: -26vh;
   width: 30vw;  
 }
 
 .Murphy3 {
   position: relative;
   right: 20vw;
-  top: 9vh;
+  top: -1vh;
   width: 30vw; 
   z-index: 1; 
 }
