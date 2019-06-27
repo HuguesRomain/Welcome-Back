@@ -6,6 +6,7 @@ import IntroChapter2 from './ChapterIntro2';
 import QuoteChapter2 from './QuoteChapter2';
 import VideoChapter from '../ChapterGlobalComponent/VideoChapter';
 import SocialImpact from './SocialImpact';
+import Addiction from './Addiction';
 
 class Chapter2 extends Component {
   render () {
@@ -16,7 +17,8 @@ class Chapter2 extends Component {
         <QuoteChapter2 />
         <VideoChapter />
         <SocialImpact />
-        <VideoChapter />
+        <VideoChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+        <Addiction />
       </div>
     )
   }

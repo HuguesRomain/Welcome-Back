@@ -1,0 +1,38 @@
+.addiction{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.addiction__title{
+  font-family: 'Headliner No. 45', sans-serif;
+  font-size: 4em;
+  margin: 5%;
+}z
+
+.addiction__content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.addiction__text{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 28vw;
+  height: 35vh;
+}
+
+.addiction__video{
+  display: flex;
+  flex-direction: column;
+}
+
+.addiction__description__video{
+  display: flex;
+  align-items: flex-end;
+  width: 25vw;
+}
