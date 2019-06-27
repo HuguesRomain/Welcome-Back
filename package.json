@@ -12,6 +12,7 @@
     "react-scripts": "3.0.1",
     "react-sound": "^1.2.0",
     "react-video-cover": "^1.2.2",
+    "react-waypoint": "^9.0.2",
     "react-youtube": "^7.9.0",
     "redux": "^4.0.1",
     "sass": "^1.21.0",
