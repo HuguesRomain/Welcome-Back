@@ -25,7 +25,7 @@ class Addiction extends Component {
             </p>
             </div>
             <div className="addiction__video">
-              <VideoPetitChapter link={'https://www.youtube.com/embed/80H0fnT8sZs'}/>
+              <VideoPetitChapter link={'https://www.youtube.com/embed/XKRUOO67A-c'}/>
               <p className='addiction__description__video'>
                 Two Vietnam veteran
                   Extract from “GI Junkies: The Forgotten Veterans”
