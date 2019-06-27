@@ -10,7 +10,7 @@ class Veterans extends Component {
   render () {
     return (
         <div className='Veterans'>
-        <h2>TRAUMATIC EVENTS</h2>
+        <h2>VETRANS OF VIETNAM AGAINST WAR</h2>
         <div className='contentVeterans'>
 
           <div className='part__Veterans'>

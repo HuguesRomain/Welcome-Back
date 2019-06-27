@@ -18,7 +18,7 @@ class SocialImpact extends Component {
 
                 These young vets with <span className='yellow__span'>no diploma</span>, have to hide hide on their military past because they are not accepted by the society.
                 </p>
-                <VideoPetitChapter link={'https://www.youtube.com/watch?v=Pkh8UtuejGw'}/>
+                <VideoPetitChapter link={'https://www.youtube.com/embed/itOqfuDKaKI'}/>
            </div>
         </div>
       </div>

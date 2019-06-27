@@ -23,6 +23,7 @@ class Transmission extends Component {
          <img className='Transmission2'src={require(`../../assets/img/${this.state.imgState.imgData.Chapter3.Transmission2}`)} alt='logo' />
          </div>
         </div>
+        <p className='todayResults'>Prevention and care is not enough. Despite the general awareness, <span className='yellow__span'>10% of the homeless</span> are veterans and one American soldier commits suicide <span className='yellow__span'>every 80 minutes</span>.</p>
       </div>
     )
   }

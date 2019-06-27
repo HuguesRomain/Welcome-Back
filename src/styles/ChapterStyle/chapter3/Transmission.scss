@@ -23,16 +23,20 @@
 .Transmission__text{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 25vh;
+  justify-content: center;
+  height: 40vh;
+  font-weight: 600;
+  line-height: 2.5vh;
 }
 
 .Transmission__text--1{
   width: 22vw;
+ 
 }
 
 .Transmission__text--2{
-  width: 35vw;
+  margin-top: 10vh;
+  width: 30vw;
 }
 
 .Transmission__img{
@@ -55,3 +59,9 @@
   top: -17vh;
   width: 25vw;
 } 
+
+.todayResults {
+  text-align: center;
+  width: 50vw;
+  font-weight: bold;
+}
