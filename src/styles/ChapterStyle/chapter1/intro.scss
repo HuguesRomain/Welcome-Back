@@ -7,12 +7,25 @@
   background-repeat: no-repeat;
 }
 
+@keyframes apparition{
+  from{opacity: 0}
+  to{opacity: 1}
+}
 .trait{
   width: 1px;
   height: 650px;
   background-color: yellow;
   position: absolute;
-  margin-top: 21%;
+  margin-top: 18%;
+  &::before{
+    content: '';
+    animation: apparition 3s forwards ;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
 }
 
 .chapter1__content {
@@ -119,14 +132,6 @@
   line-height: 3vh;
   font-size: 22px;
   font-weight: bold;
-  &::before{
-    content: '';
-    background-color: yellow;
-    position: absolute;
-    width: 100px;
-    height: 1px;
-    transform: translate(148px, 73px)
-  }
 }
 
 .Jim1 {

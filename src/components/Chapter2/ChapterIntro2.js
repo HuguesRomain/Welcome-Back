@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import imgData from '../../data/imgData'
 import AudioTrack from '../ChapterGlobalComponent/Audio'
 import {TimelineLite} from 'gsap'
+<<<<<<< HEAD
+
+=======
+>>>>>>> e199a70d89687f801e42d77022fc7b1fb66b8b3a
 
 class IntroChapter2 extends Component {
   state = {
@@ -41,7 +45,6 @@ class IntroChapter2 extends Component {
           </p>
           <div className="trait" ref={ div => this.trace = div}></div>
         <div className='contentIntroChapter'>
-
           <div className='part__introChapter'>
             <div className='part__introChapter__Content' ref={ div => this.apearBio = div } >
               <h3 className='nameIntroChapter'><span className='yellow__span'>JIM MARKSON</span></h3>

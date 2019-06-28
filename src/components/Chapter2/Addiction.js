@@ -10,6 +10,7 @@ class Addiction extends Component {
     return (
       <div className='addiction'>
         <h2 className='addiction__title'>Addiction</h2>
+        <div className="traitAdiction" ref={ div => this.trace = div}></div>
         <div className="addiction__content">
           <div className="addiction__part1">
             <div className="addiction__text">
