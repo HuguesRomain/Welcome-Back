@@ -34,6 +34,7 @@ class Button extends Component {
     return (
       <Fragment>
         <div onClick={this.handleIntro} className='button__LandingPage' ref={ div => this.buttonApear = div }>{ name }</div>
+        <p className='Disclaimer'>This site was created for pedagogic purposes as part of the Bachelor program at HETIC. The contents presented are not used for commercial purposes and will not be published.</p>
       </Fragment>
     )
   }

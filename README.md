@@ -1,3 +1,6 @@
-School project about veteran of the vietnam war 
+Technos : 
+- Front: React
+- Back: NodeJS
+
 
 BackEnd : https://github.com/HuguesRomain/BackEnd-Welcome-Back

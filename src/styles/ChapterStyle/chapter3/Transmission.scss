@@ -19,13 +19,28 @@
   justify-content: space-between;
   width: 80vw;
 }
-
+.traitTransmision{
+  width: 1px;
+  height: 600px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 11%;
+  &::before{
+    content: '';
+    animation: apparition 3s forwards ;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
 .Transmission__text{
   display: flex;
   flex-direction: column;
   height: 40vh;
   font-weight: 600;
-  line-height: 2.5vh;
+  line-height: 3vh;
 }
 
 .Transmission__text--1{
@@ -63,4 +78,5 @@
   text-align: center;
   width: 50vw;
   font-weight: bold;
+  line-height: 3vh;
 }

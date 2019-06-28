@@ -11,6 +11,7 @@ class Health extends Component {
     return (
       <div className='Health'>
         <h1>HEALTH</h1>
+        <div className="traitHealth" ref={ div => this.trace = div}></div>
         <div className='contentHealth'>
 
           <div className='part__Health'>
@@ -24,7 +25,7 @@ class Health extends Component {
                   Vietnam veterans' mortality is <span className='yellow__span'>7% higher than other fighters</span>.
                   </p>
                   <p>
-                  In addition to external causes such as overdoses or suicide, many veterans have died from chronic illness. One of the known factors is the poisoning caused by the use of <span className='yellow__span'>Agent Orange by the US military in Vietnam</span>. 
+                  In addition to external causes such as overdoses or suicides, many veterans have died from chronic illness. One of the known factors is the poisoning caused by the use of <span className='yellow__span'>Agent Orange by the US military in Vietnam</span>. 
                   </p>
 
                   <p>

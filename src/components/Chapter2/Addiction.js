@@ -10,11 +10,12 @@ class Addiction extends Component {
     return (
       <div className='addiction'>
         <h2 className='addiction__title'>Addiction</h2>
+        <div className="traitAdiction" ref={ div => this.trace = div}></div>
         <div className="addiction__content">
           <div className="addiction__part1">
             <div className="addiction__text">
             <p>
-              Addiction in vetarans is often the result of self-medication or medical purposes on the battlefield. 
+              Addiction of vetarans is often the result of self-medication or medical purposes on the battlefield. 
             </p>
             <p>
               Many veterans returned with addiction and many others sank to their arrival : <br/>

@@ -24,7 +24,7 @@ class PtsdMechanism extends Component {
 
           </div>
 
-          <div className='ptsdMechanism__content'>
+          <div className='ptsdMechanism__content2'>
             <div>
               <img className='Soldat4' src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Tank2}`)} alt='logo' />
             </div>
@@ -55,7 +55,7 @@ class PtsdMechanism extends Component {
                 <p>DEPRESSION AND SUICIDAL IDEATION OR HOSTILITY AND AGGRESSION.</p>
           </div>
 
-            <p className='quote2__chapter1__part1'>“ I don’t think Americans realized how hurt we were. That the best that could hope for was indefference. ”</p><br/><br/>
+            <p className='quote2__chapter1__part1'>“ I don’t think Americans realized how hurt we were. That the best that could hope for was indifference. ”</p><br/><br/>
             <p className='quote2__chapter1__part2'>- John Musgrave -
             </p>
         </div> 

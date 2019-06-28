@@ -18,7 +18,7 @@ class DescriptionIntro extends Component {
   render () {
     return (
       <div className='text__descrition__intro'>
-        <p ref={ div => this.apear = div } >Between 1955 and 1975, the US is at war with Vietnam. More than nine million soldiers are sent to the front.</p>
+        <p ref={ div => this.apear = div } >Between 1955 and 1975, the US is at war against Vietnam. More than 9 millions soldiers are sent to the front.</p>
       </div>
     )
   }

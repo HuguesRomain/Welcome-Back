@@ -18,7 +18,22 @@
   flex-wrap: wrap;
 }
 
-
+.traitAdiction{
+  width: 1px;
+  height: 650px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 10%;
+  &::before{
+    content: '';
+    animation: apparition 3s forwards ;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
 
 .addiction__text{
   display: flex;

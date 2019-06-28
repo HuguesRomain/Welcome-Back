@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import imgData from '../../data/imgData'
 import VideoPetitChapter from '../ChapterGlobalComponent/VideoPetitChapter'
 
-
 class TraumaticEvents extends Component {
   state = {
     img: {imgData},
@@ -11,6 +10,7 @@ class TraumaticEvents extends Component {
     return (
         <div className='Therapy'>
         <h2>THE THERAPY</h2>
+        <div className="traitTherapy"></div>
         <div className='contentTherapy'>
 
           <div className='part__Therapy'>

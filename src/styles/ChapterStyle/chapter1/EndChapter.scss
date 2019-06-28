@@ -9,17 +9,24 @@
   h2 {
     margin: 10vh 0 10vh 0;
     font-size: 4em;
-    font-weight: bolder;
     font-family: 'Headliner No. 45', sans-serif;
   }
 }
 
 .traitBack{
   width: 1px;
-  height: 420px;
+  height: 500px;
   background-color: yellow;
   position: absolute;
   margin-top: 12%;
+  &::before{
+    content: '';
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
 }
 
 .contentEndChapter {
@@ -49,11 +56,6 @@
     font-weight: bolder
   }
 
-  h4 {
-    margin-top: 2vh;
-    font-weight: bold;
-  }
-
   p {
     margin-top: 4vh;
     font-weight: lighter;
@@ -73,6 +75,7 @@
   p {
     width: 35vw;
     padding-bottom: 8vh;
+    line-height: 3vh;
   }
 }
 

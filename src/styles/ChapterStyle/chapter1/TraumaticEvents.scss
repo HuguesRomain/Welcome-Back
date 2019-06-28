@@ -9,7 +9,6 @@
   h2 {
     margin: 10vh 0 12.5vh 0;
     font-size: 4em;
-    font-weight: bolder;
     font-family: 'Headliner No. 45', sans-serif;
   }
 }
@@ -23,10 +22,18 @@
 }
 .traitPTSD{
   width: 1px;
-  height: 690px;
+  height: 770px;
   background-color: yellow;
   position: absolute;
   margin-top: 15%;
+  &::before{
+    content: '';
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
 }
 
 .part__TraumaticEvents {
@@ -117,8 +124,9 @@
 }
 
 .part__TraumaticEvents__text {
-  padding-top: 6vh;
+  padding-top: 4vh;
   width: 40vw;
+  line-height: 3vh;
 }
 
 .VideoPetitSource {

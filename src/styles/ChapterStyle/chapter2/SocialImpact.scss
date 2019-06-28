@@ -3,6 +3,21 @@
   font-size: 4em;
   margin: 5%;
 }
+.traitLife{
+  width: 1px;
+  height: 720px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 15%;
+  &::before{
+    content: '';
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
 
 .paragraph__SocialImpact{
   width: 35vw;
@@ -10,6 +25,7 @@
   text-align: right;
   font-family: 'Courier New', Courier, monospace;
   font-weight: lighter;
+  line-height: 3vh;
 }
 .content__SocialImpact{
   display: flex;
@@ -26,8 +42,8 @@
 }
 
 .Soldats22{
-  height: auto;
-  width: 25vw;
+  height: 44vh;
+  width: auto;
 }
 
 .SocialImpact{

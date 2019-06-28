@@ -13,6 +13,7 @@ class PersonalLife extends Component {
     return (
       <div className='PersonalLife'>
         <h1>Depression, suicide and personal life</h1>
+        <div className="traitLife" ref={ div => this.trace = div}></div>
         <div className='contentPersonalLife'>
 
           <div className='part__PersonalLife'>
@@ -38,9 +39,9 @@ class PersonalLife extends Component {
           </div>
 
         </div>
-        <AudioTrack audioLink={this.state.AudioState.AudioData.audio.chapter1Audio.audio1} />
+        <AudioTrack audioLink={this.state.AudioState.AudioData.audio.chapter1Audio.audio4} />
         <p className="audioTrackSource__personalLife">Gordon Fletcher Howell’s Daughter, Vietnam veteran
-Extract from “PTSD: A Vietnam Veteran’s Story ”<br /><br /> by wgby</p>
+Extract from “PTSD: A Vietnam Veteran’s Story ” by wgby</p>
       </div>
     )
   }

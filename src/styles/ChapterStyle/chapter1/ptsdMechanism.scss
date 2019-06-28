@@ -9,7 +9,6 @@
   h2 {
     margin: 10vh 0 12.5vh 0;
     font-size: 4em;
-    font-weight: bolder;
     font-family: 'Headliner No. 45', sans-serif;
   }
 }
@@ -19,6 +18,14 @@
   background-color: yellow;
   position: absolute;
   margin-top: 12%;
+  &::before{
+    content: '';
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
 }
 
 .ptsdMechanism__contentBlock {
@@ -28,6 +35,7 @@
   justify-content: center;
 }
 
+
 .ptsdMechanism__content {
   display: flex;
   flex-direction: row;
@@ -36,6 +44,66 @@
   justify-content: space-between;
   width: 80vw;
   flex-wrap: wrap;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 0.1vh;
+    width: 10vw;
+    position: absolute;
+    background-color: yellow;
+    transform: translate(30vw, -6vh);
+  }
+
+  div {
+    line-height: 6vh;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 1.3em;
+    font-weight: bolder;
+  }
+
+  p {
+    font-weight: lighter;
+    line-height: 2.5vh;
+  }
+}
+
+img {
+  transition: transform 0.4s ease;
+
+    &:hover {
+    transform: scale(1.1);
+    z-index: 2;
+  }
+}
+
+
+.ptsdMechanism__content2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  flex-wrap: wrap;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 0.1vh;
+    width: 10vw;
+    position: absolute;
+    background-color: yellow;
+    transform: translate(40vw, -6vh);
+  }
+
+
 
   div {
     line-height: 6vh;
