@@ -24,7 +24,7 @@ class PtsdMechanism extends Component {
 
           </div>
 
-          <div className='ptsdMechanism__content'>
+          <div className='ptsdMechanism__content2'>
             <div>
               <img className='Soldat4' src={require(`../../assets/img/${this.state.img.imgData.Chapter1.Tank2}`)} alt='logo' />
             </div>

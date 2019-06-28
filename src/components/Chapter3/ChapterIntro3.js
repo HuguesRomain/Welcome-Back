@@ -3,6 +3,8 @@ import imgData from '../../data/imgData'
 import AudioTrack from '../ChapterGlobalComponent/Audio'
 import AudioData from '../../data/AudioData'
 import {TimelineLite} from 'gsap'
+import VideoPetitChapter from '../ChapterGlobalComponent/VideoPetitChapter'
+
 
 class IntroChapter3 extends Component {
   state = {
@@ -58,7 +60,7 @@ class IntroChapter3 extends Component {
                      Reconciliation in Paris) an organization that helps me to lead the struggles 
                      anti-war that I must undertake.”  
                   </p>
-                  <img className='Murphy1'src={require(`../../assets/img/${this.state.img.imgData.Chapter3.Murphy1}`)} alt='logo' />
+                  <VideoPetitChapter link={'https://www.youtube.com/embed/uNW0g-nbQcw'} />
                   <p className="audioTrackSource">
                   Interview for 4ACG  <br /> <br />Jim Murphy </p>
             </div>
