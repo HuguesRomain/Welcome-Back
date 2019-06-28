@@ -27,7 +27,7 @@ class Introduction extends Component {
         <TitleIntro />
         <DescriptionIntro />
         <DeathDuringWar />
-        <p className='half__sentence' ref={ p => this.apear = p}>3/4 veterans suffer from post-traumatic syndrome.</p>
+        <p className='half__sentence' ref={ p => this.apear = p}>3/4 veterans suffer of post-traumatic syndrome.</p>
         <DeathAfterWar />
         <TitlePart2 />
         <CardsProfile  />

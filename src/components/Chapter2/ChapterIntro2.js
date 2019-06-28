@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 import imgData from '../../data/imgData'
 import AudioTrack from '../ChapterGlobalComponent/Audio'
 import {TimelineLite} from 'gsap'
+<<<<<<< HEAD
 
+=======
+>>>>>>> e199a70d89687f801e42d77022fc7b1fb66b8b3a
 
 class IntroChapter2 extends Component {
   state = {
@@ -46,7 +49,7 @@ class IntroChapter2 extends Component {
             <div className='part__introChapter__Content' ref={ div => this.apearBio = div } >
               <h3 className='nameIntroChapter'><span className='yellow__span'>JIM MARKSON</span></h3>
                 <h4>First class 1st Battalion 9th Marines.</h4>
-                  <p>“I joined the Marine Corps ton be in the vasity. I have 
+                  <p>“I joined the Marine Corps to be in the vasity. I have 
                       never regretted that decision.<br></br><br></br>
 
                       I didn’t want to look in the mirror some morning and have 
