@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import imgData from '../../data/imgData'
 import VideoPetitChapter from '../ChapterGlobalComponent/VideoPetitChapter'
 
-
 class TraumaticEvents extends Component {
   state = {
     img: {imgData},
