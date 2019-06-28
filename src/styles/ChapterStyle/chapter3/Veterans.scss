@@ -12,6 +12,50 @@
     font-family: 'Headliner No. 45', sans-serif;
   }
 }
+.Measures h1{
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 70vw;
+    color: white;
+    font-family: 'Headliner No. 45', sans-serif;
+    font-size: 4.5em;
+    margin-top: 2vh;
+}
+.traitVeteran{
+  width: 1px;
+  height: 700px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 11%;
+  &::before{
+    content: '';
+    animation: apparition 3s forwards ;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
+.traitMesure{
+  width: 1px;
+  height: 755px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 6%;
+  &::before{
+    content: '';
+    animation: apparition 3s forwards ;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
 
 .contentVeterans {
   width: 100vw;

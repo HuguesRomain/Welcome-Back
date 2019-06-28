@@ -14,6 +14,58 @@
   align-items: center;
   width: 80vw;
 }
+.traitIntroChap3{
+    width: 1px;
+    height: 900px;
+    background-color: yellow;
+    position: absolute;
+    margin-top: 30%;
+    &::before{
+      content: '';
+      animation: apparition 3s forwards ;
+      background-color: yellow;
+      position: absolute;
+      width: 100px;
+      height: 1px;
+      transform: translateX(-50px);
+    }
+}
+
+.traitIntroChap2{
+  width: 1px;
+  height: 650px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 20%;
+  &::before{
+    content: '';
+    animation: apparition 3s forwards ;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
+
+.traitChap2{
+  width: 1px;
+  height: 880px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 20%;
+  &::before{
+    content: '';
+    animation: apparition 3s forwards ;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
+
+
 
 .IntroChapter3 {
   color: white;

@@ -11,6 +11,7 @@ class Health extends Component {
     return (
       <div className='Health'>
         <h1>HEALTH</h1>
+        <div className="traitHealth" ref={ div => this.trace = div}></div>
         <div className='contentHealth'>
 
           <div className='part__Health'>

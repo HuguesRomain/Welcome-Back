@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import imgData from '../../data/imgData'
+import AudioTrack from '../ChapterGlobalComponent/Audio'
 import AudioData from '../../data/AudioData'
 import {TimelineLite} from 'gsap'
 import VideoPetitChapter from '../ChapterGlobalComponent/VideoPetitChapter'
@@ -47,7 +48,7 @@ class IntroChapter3 extends Component {
         <p className='quote2__chapter3__part2'>
           - Jim Murphy -
         </p>
-        <div className="trait" ref={ div => this.trace = div}></div>
+        <div className="traitIntroChap3" ref={ div => this.trace = div}></div>
         <div className='contentIntroChapter3'>
 
           <div className='part__introChapter3'>

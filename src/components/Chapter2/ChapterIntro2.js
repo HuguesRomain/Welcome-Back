@@ -40,7 +40,7 @@ class IntroChapter2 extends Component {
           <p className='quote1__chapter1' ref={ p => this.apear2 = p }>“ Worse than what we experienced during the war“<br/>
           - Jim Markson -
           </p>
-          <div className="trait" ref={ div => this.trace = div}></div>
+          <div className="traitIntroChap2" ref={ div => this.trace = div}></div>
         <div className='contentIntroChapter'>
           <div className='part__introChapter'>
             <div className='part__introChapter__Content' ref={ div => this.apearBio = div } >

@@ -9,6 +9,7 @@ class Transmission extends Component {
     return (
       <div className='Transmission'>
         <h2 className='Transmission__title'>transmission</h2>
+        <div className="traitTransmision"></div>
         <div className="Transmission__content">
         <div className="Transmission__text">
           <p className='Transmission__text--1'>

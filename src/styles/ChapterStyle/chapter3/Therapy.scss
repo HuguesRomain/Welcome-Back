@@ -12,6 +12,22 @@
     font-family: 'Headliner No. 45', sans-serif;
   }
 }
+.traitTherapy{
+  width: 1px;
+  height: 665px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 11%;
+  &::before{
+    content: '';
+    animation: apparition 3s forwards ;
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
 
 .contentTherapy {
   width: 100vw;
