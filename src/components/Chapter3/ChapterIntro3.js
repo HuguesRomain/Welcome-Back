@@ -48,7 +48,7 @@ class IntroChapter3 extends Component {
         <p className='quote2__chapter3__part2'>
           - Jim Murphy -
         </p>
-        <div className="trait" ref={ div => this.trace = div}></div>
+        <div className="traitIntroChap3" ref={ div => this.trace = div}></div>
         <div className='contentIntroChapter3'>
 
           <div className='part__introChapter3'>
