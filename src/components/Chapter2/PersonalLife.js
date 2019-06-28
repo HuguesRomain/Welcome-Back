@@ -41,7 +41,7 @@ class PersonalLife extends Component {
         </div>
         <AudioTrack audioLink={this.state.AudioState.AudioData.audio.chapter1Audio.audio1} />
         <p className="audioTrackSource__personalLife">Gordon Fletcher Howell’s Daughter, Vietnam veteran
-Extract from “PTSD: A Vietnam Veteran’s Story ”<br /><br /> by wgby</p>
+Extract from “PTSD: A Vietnam Veteran’s Story ” by wgby</p>
       </div>
     )
   }
