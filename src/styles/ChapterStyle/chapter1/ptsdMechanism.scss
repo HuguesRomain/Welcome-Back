@@ -19,6 +19,14 @@
   background-color: yellow;
   position: absolute;
   margin-top: 12%;
+  &::before{
+    content: '';
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
 }
 
 .ptsdMechanism__contentBlock {
