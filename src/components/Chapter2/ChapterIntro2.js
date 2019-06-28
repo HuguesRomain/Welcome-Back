@@ -45,13 +45,16 @@ class IntroChapter2 extends Component {
           <div className='part__introChapter'>
             <div className='part__introChapter__Content' ref={ div => this.apearBio = div } >
               <h3 className='nameIntroChapter'><span className='yellow__span'>JIM MARKSON</span></h3>
-                <h4>First class 1st Battalion 9th Marines.</h4>
-                  <p>“I joined the Marine Corps to be in the vasity. I have 
-                      never regretted that decision.<br></br><br></br>
+                <h4>US Air Force 1966-1967</h4>
+                  <p>“She explained it to me that : it's like trying to hold a rubber ball or a beach ball under water. And at first, it's easy. But it's always there. And it's constantly pushing, pushing, pushing. <br></br>
 
-                      I didn’t want to look in the mirror some morning and have 
-                      a guy looking back at me that hadn’t <span className='yellow__span'>done everything for 
-                      what he belive</span>.”  
+They diagnosed me with Ptsd 39 years after I left Vietnam. <br></br>
+
+It was a relief to speak to people about this that are interested in it. And a the same time, it was that other side of the coin like, where was this? 
+
+How did this affect the last 39 years of my life?”<br></br>
+
+                      
                   </p>
             </div>
           </div>

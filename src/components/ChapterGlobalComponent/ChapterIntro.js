@@ -49,7 +49,7 @@ class IntroChapter1 extends Component {
             <div className='part__introChapter__Content' ref={ div => this.apearBio = div }>
               <h3 className='nameIntroChapter'><span className='yellow__span'>JOHN MUSGRAVE</span></h3>
                 <h4>First class 1st Battalion 9th Marines.</h4>
-                  <p>“I joined the Marine Corps ton be in the vasity. I have 
+                  <p>“I joined the Marine Corps ton be in the varsity. I have 
                       never regretted that decision.<br></br><br></br>
 
                       I didn’t want to look in the mirror some morning and have 

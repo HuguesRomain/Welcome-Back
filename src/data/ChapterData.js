@@ -17,7 +17,7 @@ const textData = {
      },
      text2: { 
       id: 1, 
-      content: "I joined the Marine Corps ton be in the vasity. I have never regretted that decision.", 
+      content: "I joined the Marine Corps to be in the varsity. I have never regretted that decision.", 
     },
      text3: { 
        id: 2, 

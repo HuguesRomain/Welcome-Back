@@ -24,7 +24,8 @@ class Veterans extends Component {
             <p className='part__Veterans__text'>
             In a first time, considerated unpatriotic and anti-american by the others vets, they earned respect by the help done and others associations joined the VVAW.<br/><br/>
 
-Members have even taken legal action and can draw compensation from the companies like Monsanto who created Agent Orange (200,000 plaintiffs).
+Members have even taken legal actions and won compensations from the companies like Monsanto who created Agent Orange (200 000 
+complainants).
             </p>
             </div>
 
