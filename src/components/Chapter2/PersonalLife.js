@@ -13,6 +13,7 @@ class PersonalLife extends Component {
     return (
       <div className='PersonalLife'>
         <h1>Depression, suicide and personal life</h1>
+        <div className="traitLife" ref={ div => this.trace = div}></div>
         <div className='contentPersonalLife'>
 
           <div className='part__PersonalLife'>

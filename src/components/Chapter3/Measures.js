@@ -10,6 +10,8 @@ class IntroChapter3 extends Component {
   render () {
     return (
       <div className='Measures'>
+        <h1>THE GOVERNMENT MEASURES</h1>
+        <div className="traitMesure"></div>
   
       
         <div className='contentIntroChapter3'>

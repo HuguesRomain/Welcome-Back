@@ -3,6 +3,21 @@
   font-size: 4em;
   margin: 5%;
 }
+.traitLife{
+  width: 1px;
+  height: 720px;
+  background-color: yellow;
+  position: absolute;
+  margin-top: 15%;
+  &::before{
+    content: '';
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    transform: translateX(-50px);
+  }
+}
 
 .paragraph__SocialImpact{
   width: 35vw;

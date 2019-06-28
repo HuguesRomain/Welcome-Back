@@ -11,6 +11,7 @@ class Veterans extends Component {
     return (
         <div className='Veterans'>
         <h2>VETRANS OF VIETNAM AGAINST WAR</h2>
+        <div className="traitVeteran" ref={ div => this.trace = div}></div>
         <div className='contentVeterans'>
 
           <div className='part__Veterans'>
