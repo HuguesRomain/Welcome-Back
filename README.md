@@ -1,1 +1,5 @@
-School project about veteran of the vietnam war 
+School project about PTSD syndrome after the vietnam war, the results on veterans.
+
+Technos : 
+- Front: React
+- Back: NodeJS

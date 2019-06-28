@@ -14,7 +14,7 @@ class Addiction extends Component {
           <div className="addiction__part1">
             <div className="addiction__text">
             <p>
-              Addiction in vetarans is often the result of self-medication or medical purposes on the battlefield. 
+              Addiction of vetarans is often the result of self-medication or medical purposes on the battlefield. 
             </p>
             <p>
               Many veterans returned with addiction and many others sank to their arrival : <br/>
